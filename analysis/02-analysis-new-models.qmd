@@ -1,0 +1,506 @@
+---
+title: "2. Supplemental Analyses of New Models"
+subtitle: "Automated Scoring of Short Answer Questions with Large Language Models: Impacts of Model, Item, and Rubric Design"
+format: html
+editor: visual
+---
+
+# Prep Workspace
+
+## 1. Load packages
+
+```{r}
+#| message: FALSE
+library(yardstick)
+library(broom)
+library(emmeans)
+library(report)
+library(psych)
+library(irr)
+library(tidyverse)
+library(janitor)
+source("../functions/functions.R")
+library(ggthemes)
+```
+
+## 2. Read Data
+
+```{r}
+# Human labels
+human_labels <- read_csv("../data/raw/human_labels.csv") %>% suppressMessages
+
+# LLM labels
+llm_labels <- read_csv("../data/raw/llm_labels.csv") %>% suppressMessages
+
+# LLM labels
+items <- read_csv("../data/raw/items.csv") %>% suppressMessages
+
+# New Models
+llm_labels_new <- read_csv("../data/raw/llm_labels_new_models.csv")
+```
+
+## 4. Merge Responses
+```{r}
+llm_labels_combined <- llm_labels %>% 
+  filter(model_name == "OpenAI o1") %>%
+  bind_rows(llm_labels_new)
+
+dat_new <- process_all_ratings(human_labels, llm_labels_combined)
+```
+
+
+# Analysis
+
+## 0. Initialize Lists
+```{r}
+output_new <- list()
+tables_new <- list()
+viz_new <- list()
+analyses_new <- list()
+results_new <- list()
+```
+
+
+## 2. Item Characteristics
+```{r}
+tables_new$table1_item_characteristics <- items %>% 
+  select(item, short_description, response_length, cognitive_demand, answer_scope, scoring_subjectivity)
+print(tables_new$table1_item_characteristics)
+```
+
+
+
+## 1. IRR
+
+### a. Analysis: IRR by Domain and Item
+```{r}
+#| echo: false
+# For domain-level analysis and Table 2
+output_new$irr_by_domain <- calc_irr_by_domain(dat_new, type = "f_kappa")
+print(output_new$irr_by_domain)
+
+output_new$irr_by_item <- calc_irr_by_item(dat_new, type = "f_kappa")
+print(output_new$irr_by_item)
+```
+
+
+### b. Analysis: Impact of Rubric
+```{r}
+# Run lm / ANOVA on item-level data.
+analyses_new$lm_irr_rubric_type <- lm(stat ~ rubric_type, 
+                                  data = output_new$irr_by_item %>%
+                                    filter(model_name != "Human"))
+
+# Get estimated marginal means
+analyses_new$emm_irr_rubric_type <- emmeans(analyses_new$lm_irr_rubric_type, "rubric_type")
+
+results_new$irr_by_rubric_type <- capture.output(
+  # Print Means
+  print(analyses_new$emm_irr_rubric_type),
+  
+  # Print ANOVA info
+  report(anova(analyses_new$lm_irr_rubric_type)),
+  
+  # Contrasts
+  print(contrast(analyses_new$emm_irr_rubric_type, list("Empty v. Criteria Only" = c(1, -1, 0)))),
+  print(contrast(analyses_new$emm_irr_rubric_type, list("Empty vs Full" = c(1, 0, -1)))),
+  print(contrast(analyses_new$emm_irr_rubric_type, list("Criteria Only vs Full" = c(0, 1, -1))))
+)
+
+results_new$irr_by_rubric_type
+```
+
+### c. Viz: IRR by Rubric
+```{r}
+#| fig-height: 6
+#| fig-width: 10
+viz_new$irr_by_rubric <- output_new$irr_by_item %>%
+  mutate(stat = ifelse(stat < 0, 0, stat)) %>%
+  plot_rubric_boxplot(value_col = "stat", 
+                    val_min = 0, 
+                    val_max = 1, 
+                    h_bar = .8,
+                    title = "Distribution of Item-Level IRR (Fleiss' Kappa), New Models",
+                    y_label = "Fleiss' Kappa")
+
+viz_new$irr_by_rubric
+```
+
+
+### d. Viz: IRR by Model by Rubric
+```{r}
+#| fig-height: 6
+#| fig-width: 10
+viz_new$irr_by_model_by_rubric <- output_new$irr_by_domain %>% 
+  bind_rows(output_new$irr_by_domain %>% filter(model_size == "Frontier")) %>%
+  plot_items_barchart(value_col = "Overall",
+             val_min = 0, 
+             val_max = 1,
+             h_bar = .8,
+             title = "IRR (Fleiss' Kappa) by Model and Rubric, New Models",
+             y_label = "Fleiss' Kappa")
+
+viz_new$irr_by_model_by_rubric
+```
+
+
+### e. Viz: IRR by Item by Model
+```{r}
+#| fig-height: 6
+#| fig-width: 10
+
+# Get list of plots for each unique model
+viz_new$irr_by_item_by_model <- output_new$irr_by_item %>%
+  select(model_size, model_name, rubric_type, domain, item, stat) %>%
+  mutate(stat = ifelse(stat < 0, 0, stat)) %>%
+  arrange(model_name) %>%
+  group_by(model_name) %>%
+  group_split() %>%
+  map(~plot_items(data = ., 
+                  value_col = "stat", 
+                  model_name = first(.$model_name),
+                  val_min = 0, 
+                  val_max = 1, 
+                  h_bar = .8,
+                  title = "IRR (Fleiss' Kappa) by Item - New Models",
+                  y_label = "Fleiss' Kappa"))
+
+names(viz_new$irr_by_item_by_model) <- output_new$irr_by_item %>% arrange(model_name) %>% distinct(model_name) %>% pull
+
+print(viz_new$irr_by_item_by_model)
+```
+
+### f. Viz: IRR by Item Boxplot
+```{r}
+#| fig-height: 6
+#| fig-width: 10
+viz_new$irr_by_item_box <- output_new$irr_by_item %>%
+  filter(model_name != "Human") %>%
+  mutate(stat = ifelse(stat < 0, 0, stat)) %>%
+  plot_items_boxplot(value_col = "stat", 
+                    val_min = 0, 
+                    val_max = 1, 
+                    h_bar = .8,
+                    title = "Distribution of IRR (Fleiss' Kappa) by Item - New Models",
+                    y_label = "Fleiss' Kappa")
+
+print(viz_new$irr_by_item_box)
+```
+
+## 2. Overall Performance
+
+### a. Analysis: Overall
+```{r}
+#| echo: false
+output_new$perf_overall <- calc_perf_metrics(dat_new)
+print(output_new$perf_overall)
+```
+
+
+### b. Analysis: By Domain and Item
+```{r}
+#| echo: false
+output_new$perf_by_domain <- calc_perf_metrics(dat_new, by_domain = TRUE)
+print(output_new$perf_by_domain)
+
+output_new$perf_by_item <- calc_perf_metrics(dat_new, by_domain = TRUE, by_item = TRUE) 
+
+# Print output and table
+output_new$perf_by_item
+```
+
+
+### c. Table: 2b
+```{r}
+#| echo: false
+# Arrange output for Table 2
+tables_new$table2b_perf <- output_new$perf_overall %>%
+    pivot_wider(id_cols = c(model_size, model_name), 
+                          names_from = rubric_type, 
+                          values_from = "cohen_kappa") %>%
+  adorn_rounding(3) %>% 
+  relocate(-Full) %>%
+  rename(perf_empty = Empty,
+         perf_crit = `Criteria Only`,
+         perf_full = Full)
+
+print(tables_new$table2b_perf)
+```
+
+
+### d. Analysis: Impact of Rubric
+```{r}
+# Run lm / ANOVA on item-level data.
+analyses_new$lm_perf_rubric_type <- lm(cohen_kappa ~ rubric_type, data = output_new$perf_by_item)
+
+# Get estimated marginal means
+analyses_new$emm_perf_rubric_type <- emmeans(analyses_new$lm_perf_rubric_type, "rubric_type")
+
+results_new$perf_by_rubric_type <- capture.output(
+  # Print summary
+  print(summary(analyses_new$lm_perf_rubric_type)),
+  # Print ANOVA info
+  report(anova(analyses_new$lm_perf_rubric_type)),
+  # Contrasts
+  print(contrast(analyses_new$emm_perf_rubric_type, list("Empty v. Criteria Only" = c(1, -1, 0)))),
+  print(contrast(analyses_new$emm_perf_rubric_type, list("Empty vs Full" = c(1, 0, -1)))),
+  print(contrast(analyses_new$emm_perf_rubric_type, list("Criteria Only vs Full" = c(0, 1, -1))))
+)
+
+results_new$perf_by_rubric_type
+```
+
+
+### e. Viz: Cohen by Rubric
+```{r}
+#| fig-height: 6
+#| fig-width: 10
+viz_new$cohen_by_rubric <- output_new$perf_by_item %>%
+  mutate(stat = ifelse(cohen_kappa < 0, 0, cohen_kappa)) %>%
+  plot_rubric_boxplot(value_col = "stat", 
+                    val_min = 0, 
+                    val_max = 1, 
+                    h_bar = .8,
+                    title = "Distribution of Item-Level Performance (Cohen's Kappa), New Models",
+                    y_label = "Cohen's Kappa")
+
+viz_new$cohen_by_rubric
+```
+
+
+### f. Viz: Cohen by Model by Rubric
+```{r}
+#| fig-height: 6
+#| fig-width: 10
+viz_new$cohen_by_model_by_rubric <- output_new$perf_by_domain %>% 
+  bind_rows(output_new$perf_by_domain %>% filter(model_size == "Frontier")) %>%
+  plot_items_barchart(value_col = "cohen_kappa",
+             val_min = 0, 
+             val_max = 1,
+             h_bar = .8,
+             title = "Performance (Cohen's Kappa) by Model and Rubric, New Models",
+             y_label = "Cohen's Kappa")
+
+viz_new$cohen_by_model_by_rubric
+```
+
+
+
+
+## 3. Performance by Item
+
+### a. Table 3: Performance by Item
+```{r}
+# Arrange output for Table 3
+tables_new$table3_perf_item <- output_new$perf_by_item %>%
+  filter(rubric_type == "Full") %>%
+    pivot_wider(id_cols = c(domain, item), names_from = model_name, values_from = c(cohen_kappa, fpr, fnr)) %>%
+    adorn_rounding(3)
+
+print(tables_new$table3_perf_item)
+```
+
+
+### b. Viz: Cohen by Item by Model
+```{r}
+#| fig-height: 6
+#| fig-width: 10
+ 
+# Get list of plots for each unique model
+viz_new$cohen_by_item_by_model <- output_new$perf_by_item %>%
+  mutate(cohen_kappa = ifelse(cohen_kappa < 0, 0, cohen_kappa)) %>%
+  arrange(model_name) %>%
+  group_by(model_name) %>%
+  group_split() %>%
+  map(~plot_items(data = ., 
+                  value_col = "cohen_kappa", 
+                  model_name = first(.$model_name),
+                  val_min = 0, 
+                  val_max = 1, 
+                  h_bar = .8,
+                  title = "Performance (Cohen's Kappa) by Item - New Models",
+                  y_label = "Cohen's Kappa")) 
+
+names(viz_new$cohen_by_item_by_model) <- output_new$perf_by_item %>% arrange(model_name) %>% distinct(model_name) %>% pull
+
+print(viz_new$cohen_by_item_by_model)
+```
+
+### c. Viz: False Positive Rate by Item
+```{r}
+#| fig-height: 6
+#| fig-width: 8
+ 
+# Get list of plots for each unique model
+viz_new$fpr_by_item_by_model <- output_new$perf_by_item %>%
+  arrange(model_name) %>%
+  group_by(model_name) %>%
+  group_split() %>%
+  map(~plot_items(data = ., 
+                  value_col = "fpr", 
+                  model_name = first(.$model_name),
+                  val_min = 0, 
+                  val_max = 1, 
+                  h_bar = .1,
+                  title = "False Positive Rate by Item - New Models",
+                  y_label = "False Positive Rate"))
+
+names(viz_new$fpr_by_item_by_model) <- output_new$perf_by_item %>% arrange(model_name) %>% distinct(model_name) %>% pull
+
+print(viz_new$fpr_by_item_by_model)
+```
+
+### d. Viz: False Negative Rate by Item
+```{r}
+#| fig-height: 6
+#| fig-width: 8
+ 
+# Get list of plots for each unique model
+viz_new$fnr_by_item_by_model <- output_new$perf_by_item %>%
+  arrange(model_name) %>%
+  group_by(model_name) %>%
+  group_split() %>%
+  map(~plot_items(data = ., 
+                  value_col = "fnr", 
+                  model_name = first(.$model_name),
+                  val_min = 0, 
+                  val_max = 1, 
+                  h_bar = .1,
+                  title = "False Negative Rate by Item",
+                  y_label = "False Negative Rate"))
+
+
+names(viz_new$fnr_by_item_by_model) <- output_new$perf_by_item %>% arrange(model_name) %>% distinct(model_name) %>% pull
+
+print(viz_new$fnr_by_item_by_model)
+```
+
+
+### e. Viz: Distribution Cohen's Kappa by Item
+```{r}
+#| fig-height: 6
+#| fig-width: 10
+viz_new$cohen_by_item_box <- output_new$perf_by_item %>%
+  mutate(cohen_kappa = ifelse(cohen_kappa < 0, 0, cohen_kappa)) %>%
+  plot_items_boxplot(value_col = "cohen_kappa", 
+                      val_min = 0, 
+                      val_max = 1, 
+                      h_bar = .8,
+                      title = "Distribution of Performance (Cohen's Kappa) by Item - New Models",
+                      y_label = "Cohen's Kappa")
+
+print(viz_new$cohen_by_item_box)
+```
+
+
+
+### f. Viz: Combined FPR & FNR
+```{r}
+#| fig-height: 6
+#| fig-width: 10
+# ELA
+viz_new$error_bars_ela <- output_new$perf_by_item %>%
+  plot_dual_error_rates(domain_filter = "ELA",
+                       val_min = 0,
+                       val_max = 1,
+                       h_bar = 0.1,
+                       title = "Error Rate Distribution by Item - ELA")
+
+# Math
+viz_new$error_bars_math <- output_new$perf_by_item %>%
+  plot_dual_error_rates(domain_filter = "Math",
+                       val_min = 0,
+                       val_max = 1,
+                       h_bar = 0.1,
+                       title = "Error Rate Distribution by Item - Math")
+
+print(viz_new$error_bars_ela)
+print(viz_new$error_bars_math)
+```
+
+
+## 4. Performance by Item Characteristics
+
+### a. Prep data
+```{r}
+# Combine data
+output_new$perf_by_item_characteristics <- tables_new$table1_item_characteristics %>% 
+  left_join(output_new$perf_by_item %>% 
+              filter(rubric_type == "Full") %>%
+              select(domain, item, model_name, starts_with("cohen")) %>%
+              group_by(domain, item),
+              by = "item") %>%
+  select(-short_description) %>%
+  relocate(domain, item, starts_with("cohen"))
+
+print(output_new$perf_by_item_characteristics)
+```
+
+### b. Analyses
+```{r}
+#| echo: false
+analyses_new$t_test_domain <- output_new$perf_by_item_characteristics %>%
+  t.test(cohen_kappa ~ domain, data = .)
+
+analyses_new$t_test_response_length <- output_new$perf_by_item_characteristics %>%
+  t.test(cohen_kappa ~ response_length, data = .)
+
+analyses_new$t_test_cognitive_demand <- output_new$perf_by_item_characteristics %>%
+  t.test(cohen_kappa ~ cognitive_demand, data = .)
+
+analyses_new$anova_answer_scope <- output_new$perf_by_item_characteristics %>%
+  aov(cohen_kappa ~ answer_scope, data = .)
+
+analyses_new$t_test_scoring_subjectivity <- output_new$perf_by_item_characteristics %>%
+  t.test(cohen_kappa ~ scoring_subjectivity, data = .)
+```
+
+### c. Present Results
+
+```{r}
+#| echo: false
+format_tidy_t(analyses_new$t_test_domain)
+
+format_tidy_t(analyses_new$t_test_response_length)
+
+format_tidy_t(analyses_new$t_test_cognitive_demand)
+
+format_tidy_t(analyses_new$t_test_scoring_subjectivity)
+
+
+results_new$item_characteristic_ttests <- capture.output(
+  print(report(analyses_new$t_test_domain)),
+  cat("------------------------------\n"),
+  print(report(analyses_new$t_test_response_length)),
+  cat("------------------------------\n"),
+  print(report(analyses_new$t_test_cognitive_demand)),
+  cat("------------------------------\n"),
+  print(report(analyses_new$t_test_scoring_subjectivity))
+)
+
+# Get estimated marginal means
+analyses_new$emm_anova_answer_scope <- emmeans(analyses_new$anova_answer_scope, "answer_scope")
+
+results_new$item_characteristic_anova <- capture.output(
+  print(analyses_new$emm_anova_answer_scope),
+  print(report(analyses_new$anova_answer_scope)),
+  
+  # Contrasts
+  print(contrast(analyses_new$emm_anova_answer_scope, list("Broad v. Moderate" = c(1, -1, 0)))),
+  print(contrast(analyses_new$emm_anova_answer_scope, list("Broad vs Narrow" = c(1, 0, -1)))),
+  print(contrast(analyses_new$emm_anova_answer_scope, list("Moderate v. Narrow" = c(0, 1, -1))))
+)
+
+results_new$item_characteristic_ttests
+results_new$item_characteristic_anova
+```
+
+# Save Results
+```{r}
+## NOTE: Already saved to "../output"
+# write_csv(dat_new,"../data/processed/dat_new.csv")
+# save_ggplots_list(viz_new, output_dir = "../output/visualizations/new/")
+# save_table_list(tables_new, output_dir = "../output/tables/new/")
+# save_table_list(output_new, output_dir = "../output/tables/new/")
+# save_results_list(results_new, output_dir = "../output/results/new/")
+```

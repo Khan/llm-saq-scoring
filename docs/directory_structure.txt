@@ -1,0 +1,30 @@
+llm-saq-scoring/
+├── data/
+│   ├── raw/                    # Original, immutable datasets
+│   │   ├── human_labels.csv    # Human scorer ratings
+│   │   ├── items.csv           # Assessment item metadata
+│   │   ├── llm_labels.csv      # LLM scores (original models)
+│   │   └── llm_labels_new_models.csv  # LLM scores (newer models)
+│   └── processed/              # Cleaned/transformed data
+│       ├── dat.csv             # Main analysis dataset
+│       └── dat_new.csv         # Dataset with newer models
+├── docs/						            # Documentation
+├── analysis/
+│   ├── 01-analysis.qmd         # Original analysis (original models)
+│   └── 02-analysis-new-models.qmd  # Extended analysis (newer models)
+├── functions/
+│   └── functions.R             # Reusable analysis functions
+├── output/
+│   ├── tables/                # Analysis results in tabular format
+│   │   ├── new/               # Tables for newer model analyses
+│   │   ├── irr_by_*.csv       # Inter-rater reliability results
+│   │   ├── perf_by_*.csv      # Performance metrics
+│   │   └── table*.csv         # Formatted tables for publication
+│   ├── results/               # Statistical test outputs
+│   │   ├── new/               # Results for newer models
+│   │   └── *.txt              # ANOVA and t-test results
+│   └── visualizations/        # Plots and figures
+│       ├── new/               # Visualizations for newer models
+│       ├── *_by_item_*.png    # Item-level performance plots
+│       └── error_bars_*.png   # Summary performance plots
+└── README.txt                 # Project overview and setup instructions

@@ -1,0 +1,889 @@
+domain,item,response_id,response,human_1,human_2,human_3,human_avg
+ELA,1,1,unintended,0,0,0,0
+ELA,1,2,criminal,0,0,0,0
+ELA,1,3,subtracting,0,0,0,0
+ELA,1,4,deleterious,0,0,0,0
+ELA,1,5,missing,0,0,0,0
+ELA,1,6,remaining,0,0,0,0
+ELA,1,7,malevolent,0,0,1,0
+ELA,1,8,widespread,0,0,0,0
+ELA,1,9,erasing,0,0,0,0
+ELA,1,10,helpful,0,0,0,0
+ELA,1,11,theft,0,0,0,0
+ELA,1,12,effective,0,0,0,0
+ELA,1,13,imperfect,0,0,0,0
+ELA,1,14,Deleterious probably means fair. The author's talking about how utilitarianism tries to be fair to everyone.,0,0,0,0
+ELA,1,15,Deleterious could mean illegal. The example they give after using the word is about stealing.,0,0,0,0
+ELA,1,16,It means 'unfair' because the example given later shows unfairness.,0,0,0,0
+ELA,1,17,It implies something with a slight or insignificant effect.,0,0,0,0
+ELA,1,18,It means not necessary.,0,0,0,0
+ELA,1,19,deleted,0,0,0,0
+ELA,1,20,silly,0,0,0,0
+ELA,1,21,harmful,1,1,1,1
+ELA,1,22,damaging,1,1,1,1
+ELA,1,23,detrimental,1,1,1,1
+ELA,1,24,detrimental,1,1,1,1
+ELA,1,25,It describes negative effects.,1,1,0,1
+ELA,1,26,harmful,1,1,1,1
+ELA,1,27,pernicious,0,1,1,1
+ELA,1,28,harmful,1,1,1,1
+ELA,1,29,damaging,1,1,1,1
+ELA,1,30,harmful,1,1,1,1
+ELA,1,31,harm,0,0,1,0
+ELA,1,32,harmful,1,1,1,1
+ELA,1,33,negative,1,1,1,1
+ELA,1,34,Deleterious probably means having negative outcomes. It indicates that something is harmful or detrimental.,1,1,1,1
+ELA,1,35,Deleterious could mean causing bad results. It refers to something harmful or detrimental.,1,1,1,1
+ELA,1,36,It means 'harmful' because it signifies something unfavorable.,1,1,1,1
+ELA,1,37,"It describes something with harmful, detrimental, or negative effects.",1,1,1,1
+ELA,1,38,It means harmful or damaging.,1,1,1,1
+ELA,1,39,It signifies harmful or detrimental consequences.,1,1,1,1
+ELA,1,40,harmful,1,1,1,1
+ELA,2,81,The tone is passionate.,0,0,0,0
+ELA,2,82,skeptical,0,0,0,0
+ELA,2,83,factual,0,0,0,0
+ELA,2,84,just normal,0,0,0,0
+ELA,2,85,"There is no tone, just facts.",0,0,0,0
+ELA,2,86,good,0,0,0,0
+ELA,2,87,We're all going to die,0,0,0,0
+ELA,2,88,"concerned, because it talks about all these issues like food supplies dwindling",0,0,0,0
+ELA,2,89,negative,0,0,0,0
+ELA,2,90,straightforward,0,0,0,0
+ELA,2,91,ingenious,0,0,0,0
+ELA,2,92,Happy and excited. The author is really happy abou tthe use of groundwater.,0,0,0,0
+ELA,2,93,Maybe the tone is just neutral? They're just explaining stuff about groundwater without getting emotional about it.,0,0,0,0
+ELA,2,94,"It's hard to tell the tone from just a written paragraph, so I'd say there isn't a tone.",0,0,0,0
+ELA,2,95,"The tone of the passage is negative. 
+
+",0,0,0,0
+ELA,2,96,It's trying to warn people use less ground water.,0,0,0,0
+ELA,2,97,The author is angry.,0,0,0,0
+ELA,2,98,The author is worried about groundwater running out,0,0,0,0
+ELA,2,99,The passage has a biased tone,0,0,0,0
+ELA,2,100,The author chooses words to make the reader feel afraid so its a panicky tone,0,0,0,0
+ELA,2,101,The tone is optimistic.,1,1,1,1
+ELA,2,102,hopeful,1,1,1,1
+ELA,2,103,positive,1,1,1,1
+ELA,2,104,hopeful and optimistic,1,1,1,1
+ELA,2,105,There is a hopeful and optimistic tone.,1,1,1,1
+ELA,2,106,confident,0,0,1,0
+ELA,2,107,We're all going to be okay.,0,0,0,0
+ELA,2,108,"bright, because it talks about all these positive things like a hopeful future",1,1,1,1
+ELA,2,109,positive,1,1,1,1
+ELA,2,110,promising,0,0,0,0
+ELA,2,111,enthusiastic,1,0,1,1
+ELA,2,112,Assuring and optimistic. The passage has an assuring tone.,1,1,1,1
+ELA,2,113,Maybe the tone is favorable? It comes across as hopeful and optimistic.,1,1,1,1
+ELA,2,114,"It's hard to tell, but I'd say the tone is constructive.",0,0,0,0
+ELA,2,115,The tone of the passage is positive in outlook.,1,1,1,1
+ELA,2,116,It's conveying a message full of hope.,1,1,1,1
+ELA,2,117,The author is encouraged.,1,1,1,1
+ELA,2,118,The author is hope-filled,1,1,1,1
+ELA,2,119,The passage has a hopeful and optimistic tone,1,1,1,1
+ELA,2,120,"The author chooses words to make the reader feel confident about the future, so it's a hopeful and optimistic tone.",1,1,1,1
+ELA,3,161,"without permission, horrifying treatment, conducted research",0,0,0,0
+ELA,3,162,"brainwashing, manipulation, war",0,0,0,0
+ELA,3,163,"sinister-sounding, mind-altering, images",0,0,0,0
+ELA,3,164,control,0,0,0,0
+ELA,3,165,behavior,0,0,0,0
+ELA,3,166,experiments,0,0,0,0
+ELA,3,167,example,0,0,0,0
+ELA,3,168,hypnosis,0,0,0,0
+ELA,3,169,suffered horrifying treatment,0,1,0,0
+ELA,3,170,mind altering drugs,0,0,0,0
+ELA,3,171,were terrible enough,0,0,0,0
+ELA,3,172,someone died there,0,0,0,0
+ELA,3,173,sinister and mind-altering and supervillains,0,1,0,0
+ELA,3,174,"I'd say ""suspects"", ""prisoners"", and ""Soviet Union"" show the tone. The author is being critical of how they treated these people.",0,0,0,0
+ELA,3,175,interrogate suspecs and prisionsers,0,0,0,0
+ELA,3,176,"science fiction, movie, permission",0,0,0,0
+ELA,3,177,"prisoners, researchers, participants",0,0,0,0
+ELA,3,178,"hypnosis, Army officer, died",0,0,0,0
+ELA,3,179,"supervillains, experiments, critical",0,0,0,0
+ELA,3,180,"war, drugs, died",0,0,0,0
+ELA,3,181,"notorious, sinister, brainwashing",1,1,1,1
+ELA,3,182,"supervillains, manipulation, horrifying",1,1,1,1
+ELA,3,183,"terrible, suffered, sinister",1,1,1,1
+ELA,3,184,brainwashing manipulation horrifying,1,1,1,1
+ELA,3,185,"notorious  
+terrible  
+suffered",1,1,1,1
+ELA,3,186,sinister brainwashing terrible,1,1,1,1
+ELA,3,187,"supervillains, manipulation, suffered",1,1,1,1
+ELA,3,188,"notorious  
+sinister  
+manipulation",1,1,1,1
+ELA,3,189,"terrible, horrifying, brainwashing",1,1,1,1
+ELA,3,190,"suffered, manipulation, sinister",1,1,1,1
+ELA,3,191,"Supervillains, brainwashing, terrible.",1,1,1,1
+ELA,3,192,"notorious, horrifying, manipulation",1,1,1,1
+ELA,3,193,sinister and suffered and brainwashing,1,1,1,1
+ELA,3,194,"I'd say ""terrible,"" ""manipulation,"" and ""horrifying"" convey the critical tone. The author is emphasizing how negative these aspects are.",0,1,1,1
+ELA,3,195,supervillans sinster terible,1,1,1,1
+ELA,3,196,"notorious, brainwashing, suffered",1,1,1,1
+ELA,3,197,"manipulation, horrifying, sinister",1,1,1,1
+ELA,3,198,"terrible, brainwashing, manipulation",1,1,1,1
+ELA,3,199,"suffered, sinister, horrifying",1,1,1,1
+ELA,3,200,"supervillains, notorious, terrible",1,1,1,1
+ELA,4,241,To get the audience intrigued about government research,0,0,0,0
+ELA,4,242,To justify the use of extreme interrogation tactics,0,0,0,0
+ELA,4,243,To show how the world is a better place than it was in the 1950s.,0,0,0,0
+ELA,4,244,To encourage readers to use mind control and sensory deprivation to manipulate others.,0,0,0,0
+ELA,4,245,I think the author doesn't like the CIA,0,0,0,0
+ELA,4,246,information,0,0,0,0
+ELA,4,247,description,0,0,0,0
+ELA,4,248,to explain how the CIA improved ways to interrogate suspects,0,0,0,0
+ELA,4,249,He's probably concerned about the mind control stuff the CIA did but also how it helped in our war against the soviet union,0,0,0,0
+ELA,4,250,To tell us mind control is bad,0,0,0,0
+ELA,4,251,To criticize the CIA for killing people,1,1,1,1
+ELA,4,252,The primary purpose is to talk about a movie.,0,0,0,0
+ELA,4,253,To argue in favor of mind control as a valid scientific approach.,0,0,0,0
+ELA,4,254,The purpose is to highlight the success of CIA experiments in improving interrogation techniques.,0,0,0,0
+ELA,4,255,The purpose is to discuss the development of modern-day mind control technology.,0,0,0,0
+ELA,4,256,To compare the techniques between the United States and the Soviet Union.,0,0,0,0
+ELA,4,257,The author basically argues that mind control is pretty brutal but all is fair in war.,0,0,0,0
+ELA,4,258,Mind control is not the best way to get thr truth,0,0,0,0
+ELA,4,259,Mind control doesn't exist in real life it's only something you see in the movies.,0,0,0,0
+ELA,4,260,The CIA was really effective at interrogating prisoners and used every technique possible to get at the truth.,0,0,0,0
+ELA,4,261,To criticize the unethical practices of Project MKUltra,1,1,1,1
+ELA,4,262,To criticize the CIA's harmful mind control experiments,1,1,1,1
+ELA,4,263,To show how the CIA's use of mind control techniques was unethical.,1,1,1,1
+ELA,4,264,To encourage readers to recognize the unethical and harmful nature of Project MKUltra.,1,1,1,1
+ELA,4,265,I think the author is condemning the CIA's mind control experiments on unsuspecting individuals.,1,1,1,1
+ELA,4,266,criticism,0,0,0,0
+ELA,4,267,criticism,0,0,0,0
+ELA,4,268,to reveal how Project MKUltra employed unethical methods,1,1,1,1
+ELA,4,269,He's trying to make people aware of the unethical mind control experiments the CIA did.,1,1,1,1
+ELA,4,270,To tell us that Project MKUltra was unethical and harmful,1,1,1,1
+ELA,4,271,To criticize the CIA for unethical mind control experiments,1,1,1,1
+ELA,4,272,The primary purpose is to criticize the CIA's unethical actions in Project MKUltra.,1,1,1,1
+ELA,4,273,To criticize Project MKUltra for its unethical and harmful experiments.,1,1,1,1
+ELA,4,274,The purpose is to highlight the unethical nature of the CIA's mind control research.,1,1,1,1
+ELA,4,275,The purpose is to expose the unethical mind control experiments conducted by the government.,1,1,1,1
+ELA,4,276,To criticize the CIA's mind control experiments as unethical.,1,1,1,1
+ELA,4,277,The author basically argues that Project MKUltra was unethical and should be condemned.,1,1,1,1
+ELA,4,278,The CIA's mind control experiments were harmful,1,1,0,1
+ELA,4,279,"Mind control techniques used in Project MKUltra were unethical, and the author is calling them out.",1,1,1,1
+ELA,4,280,"The CIA was really unethical in their mind control experiments and caused harm, and the author wants to expose this.",1,1,1,1
+ELA,5,321,It talks about the disasters that come from bored octopi.,0,0,0,0
+ELA,5,322,They will invariably come up with something creative to do with their time that you don't want them to do.,0,0,0,0
+ELA,5,323,It explains that octopuses like to play with human children and their toys.,0,0,0,0
+ELA,5,324,It says that the Hatfield Marine Science Center created an enrichment handbook for octopus.,0,0,1,0
+ELA,5,325,"it says ""to avert disaster""",0,0,0,0
+ELA,5,326,it lists different activities,0,0,0,0
+ELA,5,327,because otherwise they will escape,0,0,0,0
+ELA,5,328,to avert disaster,0,0,0,0
+ELA,5,329,so they can make art,0,0,0,0
+ELA,5,330,shows that octopuses are smart,0,0,0,0
+ELA,5,331,details,0,0,0,0
+ELA,5,332,It talks about how if octopuses escape they can get into trouble!,0,0,0,0
+ELA,5,333,"Paragraph 2 explains that octopuses are smart enough to escape from tanks, so aquariums need to design special lids to keep them inside. This proves they're really intelligent and need to be kept busy.",0,0,0,0
+ELA,5,334,"Paragraph 2 doesn't actually develop the idea that its important to prevent an octopus from becoming bored; rather it lists a bunch of stuff various places do to keep octopodes entertained. It's not about ""why"" but rather ""how"".",1,1,1,1
+ELA,5,335,The paragraphs described examples to make octopus do some exercises to remain healthy.,0,0,0,0
+ELA,5,336,It emphasizes that octopus are dangerous animals that likely to escape from aquarium.,0,0,0,0
+ELA,5,337,It focuses on the creative ways aquariums interact with octopuses to make them more interactive with people.,0,0,1,0
+ELA,5,338,The first paragraph talks about lots of smart animals but the second only talks about the octopus.,0,0,0,0
+ELA,5,339,You can make money to fund the aquarium by selling Octopus art.,0,0,0,0
+ELA,5,340,"They added an ""escape-proof lid"" to make sure the octopus didn't get away. Just because an octopus isn't bored doesn't mean it won't try to get out.",0,0,0,0
+ELA,5,341,It talks about creative ways people keep octopuses entertained to prevent them from getting bored.,1,1,1,1
+ELA,5,342,They will come up with creative ways to keep octopuses entertained so they don't get bored.,1,1,0,1
+ELA,5,343,It describes how people use creative activities to entertain octopuses and prevent them from becoming bored.,1,1,1,1
+ELA,5,344,It says that staff create enrichment activities to keep octopuses entertained and prevent boredom.,1,1,1,1
+ELA,5,345,it describes different toys and games given to octopuses to prevent boredom,1,1,1,1
+ELA,5,346,it lists creative ways to keep octopuses entertained and prevent boredom,1,1,1,1
+ELA,5,347,because it shows how aquariums use creative ideas to keep octopuses occupied,1,1,1,1
+ELA,5,348,To give specific examples of how people prevent octopuses from becoming bored.,1,1,1,1
+ELA,5,349,by listing creative ways to keep octopuses entertained,1,1,1,1
+ELA,5,350,shows examples of enrichment activities to keep octopuses engaged,1,1,1,1
+ELA,5,351,details,0,0,0,0
+ELA,5,352,It talks about how people keep octopuses entertained with creative activities to prevent them from getting bored!,1,1,1,1
+ELA,5,353,"Paragraph 2 explains that aquariums use creative ways to keep octopuses entertained and prevent them from getting bored. For example, they might provide puzzles or toys for the octopuses to play with. This shows that octopuses are intelligent and need mental stimulation to stay engaged.",1,1,1,1
+ELA,5,354,"Paragraph 2 develops the idea by giving examples of how to keep octopodes occupied; it's not about ""why"" but rather ""how"" to keep them entertained.",1,1,1,1
+ELA,5,355,Paragraph 2 described examples to make octopuses do some activities to prevent boredom.,1,1,1,1
+ELA,5,356,It emphasizes that octopus can become bored and lists enrichment ideas to prevent this.,1,1,1,1
+ELA,5,357,It focuses on the creative ways people keep octopuses entertained to prevent boredom.,1,1,1,1
+ELA,5,358,"Paragraph 2 develops the idea by explaining how staff create activities to engage octopuses, providing examples of creative ways to keep them entertained and prevent boredom.",1,1,1,1
+ELA,5,359,You can prevent Octopuses from becoming bored by using the methods illustrated in paragraph 2.,1,1,1,1
+ELA,5,360,"They gave details about how aquariums keep octopuses entertained to avoid boredom. They use things like ""puzzle boxes"" and ""interactive toys"" to keep the octopus engaged.",1,1,1,1
+ELA,6,401,not sink,0,0,0,0
+ELA,6,402,To work long hours,0,0,0,0
+ELA,6,403,put ice cream in drinks,0,0,0,0
+ELA,6,404,to stay on top of the water without swimming or paddling,0,0,0,0
+ELA,6,405,To be able to successfully collect shells at the beach,0,0,0,0
+ELA,6,406,It explains how the sun sank into the Pacific.,0,0,0,0
+ELA,6,407,To entice customers into a restaurant,0,0,0,0
+ELA,6,408,To wear hand-me-down clothing and patch textbooks with brown paper and masking tape.,0,0,0,0
+ELA,6,409,To float in the air like a seagull,0,0,0,0
+ELA,6,410,To not have enough money to survive.,1,0,0,0
+ELA,6,411,stay at the surface of the ocean,0,0,0,0
+ELA,6,412,run a restaurant,0,0,0,0
+ELA,6,413,they're struggling to cope emotionally with what is going on,0,0,0,0
+ELA,6,414,trying to keep the family together,0,0,0,0
+ELA,6,415,sell food,0,0,0,0
+ELA,6,416,stay in one place,0,0,0,0
+ELA,6,417,buy clothes and school supplies,0,0,0,0
+ELA,6,418,"In this context, the metaphorical expression ""stay afloat"" illustrates how the family's business attempted to remain viable in a competitive market, similar to how a ship must stay above water to continue its journey - except I think it's more about their swimming abilities since they spent so much time at the beach.",1,0,0,0
+ELA,6,419,do a good job,0,0,0,0
+ELA,6,420,stay float,0,0,0,0
+ELA,6,421,not fail,1,0,0,0
+ELA,6,422,To have trouble keeping their restaurant open,1,0,0,0
+ELA,6,423,struggle to make enough money to survive,1,1,1,1
+ELA,6,424,to barely manage to pay their bills,1,1,1,1
+ELA,6,425,To struggle to achieve financial stability,1,1,1,1
+ELA,6,426,It explains how they struggled to achieve financial stability.,1,1,1,1
+ELA,6,427,To struggle to achieve financial stability,1,1,1,1
+ELA,6,428,To struggle to stay afloat financially.,1,1,1,1
+ELA,6,429,To struggle to achieve financial stability,1,1,1,1
+ELA,6,430,To avoid not having enough money to survive.,1,1,1,1
+ELA,6,431,struggle to achieve financial stability,1,1,1,1
+ELA,6,432,struggled to achieve financial stability,1,1,1,1
+ELA,6,433,they're struggling to achieve financial stability with what is going on,1,1,1,1
+ELA,6,434,struggling to achieve financial stability,1,1,1,1
+ELA,6,435,struggled to make enough money,1,1,1,1
+ELA,6,436,struggle to achieve financial stability,1,1,1,1
+ELA,6,437,keep from sinking into debt,1,1,1,1
+ELA,6,438,"In this context, they were working hard to avoid closing their restaurant, struggling to achieve financial stability in a competitive market—similar to how a ship must stay afloat to continue its journey—but perhaps it's more about their passion for cooking since they spent so much time perfecting their recipes.",0,0,1,0
+ELA,6,439,barely managing to support their family,1,1,1,1
+ELA,6,440,struggle make ends meet,1,1,1,1
+ELA,7,481,"Just when you think you know everything about octopuses, scientists find out something you never knew before.",0,0,0,0
+ELA,7,482,Octopi can squeeze into small spaces like coconut shells.,0,0,0,0
+ELA,7,483,Octopi have many useful job skills on their resumes.,0,0,0,0
+ELA,7,484,Only a few species of animals can use tools and save them for future functions.,0,0,0,0
+ELA,7,485,Octopuses are fascinating creatures.,0,0,0,0
+ELA,7,486,Scientists learn about octopuses by observing them.,0,0,0,0
+ELA,7,487,Octopuses have impressive resumes.,0,0,0,0
+ELA,7,488,they're smart creatures,0,0,0,0
+ELA,7,489,Octopuses are smart creatures. They can use tools.,0,1,1,1
+ELA,7,490,"octopi can solve puzzles, open jars, navigate mazes, and shield themselves",0,0,0,0
+ELA,7,491,The central idea is about octopuses.,0,0,0,0
+ELA,7,492,Using tools makes you smart.,0,0,0,0
+ELA,7,493,octopuses can do lots of cool things with there tentacles,0,0,0,0
+ELA,7,494,Coconut shells make good homes for octopusses at the bottom of the ocean.,0,0,0,0
+ELA,7,495,Octopuses are amazing animals that can do many different things.,0,0,0,0
+ELA,7,496,octopuses are smart because they figured out how to walk with shells like stilts,0,0,0,0
+ELA,7,497,Octopuses rely on their shells for breathing and use them to walk.,0,0,0,0
+ELA,7,498,"octopuses can swim faster than most sea creatures, making them the top predator of the ocean.",0,0,0,0
+ELA,7,499,they are really smart animals,0,0,0,0
+ELA,7,500,octopuses protect themselves by hiding inside coconut shells,0,0,0,0
+ELA,7,501,"Just when you think you've seen it all, octopuses prove their intelligence by saving coconut shells to use as tools later on.",1,1,1,1
+ELA,7,502,"Octopi use and save tools, showing their high intelligence.",1,1,1,1
+ELA,7,503,"Octopi have ""unusual intelligence"" and ""tool collector"" listed on their resumes.",0,0,0,0
+ELA,7,504,"Only a few species, like octopuses, can use tools and save them for future use, demonstrating their unexpected intelligence.",1,1,1,1
+ELA,7,505,Octopuses are unusually intelligent creatures who use tools like coconut shells for future protection.,1,1,1,1
+ELA,7,506,Octopuses demonstrate their intelligence by using and saving tools.,1,1,1,1
+ELA,7,507,Octopuses have impressive resumes—they're unusually intelligent and show it by using and storing tools.,1,1,1,1
+ELA,7,508,octopuses are smart creatures who use and save tools,1,1,1,1
+ELA,7,509,"Octopuses are very intelligent. They save tools to use later, which is rare among animals.",0,1,0,0
+ELA,7,510,"octopuses use and save tools, demonstrating their intelligence",1,1,1,1
+ELA,7,511,"The central idea is that octopuses are unusually intelligent, demonstrated by their ability to use tools.",1,1,1,1
+ELA,7,512,Using tools and planning ahead show that octopuses are smart.,1,1,1,1
+ELA,7,513,octopuses are super smart cuz they can plan ahead and use tools,1,1,1,1
+ELA,7,514,"Octopuses use tools and save them for later, showing they are unusually intelligent.",1,1,1,1
+ELA,7,515,Octopuses are unusually intelligent animals that can use tools and save them for future protection.,1,1,1,1
+ELA,7,516,"octopuses are smart because they use and save tools, showing their intelligence",1,1,1,1
+ELA,7,517,Octopuses use coconut shells as tools and show they have advanced intelligence.,1,1,1,1
+ELA,7,518,octopuses are unusually intelligent because they can use and save tools.,1,1,1,1
+ELA,7,519,octopuses are really smart because they use and store tools like coconut shells,1,1,1,1
+ELA,7,520,octopuses show their exceptional intelligence by using and saving tools,1,1,1,1
+ELA,8,561,"Part A: If we terraform Mars, some people will move there, but others will think it is unethical to move to Mars.
+Part B: Some argue that planets should be left in their natural, undisturbed state. Others claim that a desire to preserve uninhabited planets shouldn't trump the needs of billions of life forms here on Earth.",0,0,0,0
+ELA,8,562,"Part A: We would be better off healing Earth than terraforming another planet.
+Part B: The Earth is dying. Between climate change, pollution, and resource depletion, the future of life on this planet is uncertain. Could the solution be to make our home on a new planet? While it may be tempting to solve our problems on Earth by simply moving to a new planet, the complexities of developing a new planetary home make migrating off-planet an unrealistic option.
+
+The process of transforming an inhospitable planet into a habitable world is known as terraforming. It involves changing a planet's atmosphere, temperature, surface, and ecology to mirror those of Earth. Currently, the most popular candidate for terraforming is Mars, due to its closeness and similarities to Earth. However, terraforming Mars would require resources and technology that we don't currently possessindeed, we don't even have the technology to send a single human to Mars!
+
+Furthermore, terraforming poses ethical dilemmas. Some argue that planets should be left in their natural, undisturbed state. Others claim that a desire to preserve uninhabited planets shouldn't trump the needs of billions of life forms here on Earth.
+
+Terraforming is an exciting possibility, but its realities are complex. We would be better off dedicating time and effort to protecting and healing this planet, rather than finding ourselves a new one.",0,0,0,0
+ELA,8,563,"Part A: While it may be tempting to solve our problems on Earth by simply moving to a new planet, the complexities of developing a new planetary home make migrating off-planet an unrealistic option.
+Part B: While it may be tempting to solve our problems on Earth by simply moving to a new planet, the complexities of developing a new planetary home make migrating off-planet an unrealistic option.",0,0,0,0
+ELA,8,564,"Part A: We don't know whether terraforming will work in time to move there.
+Part B: However, terraforming Mars would require resources and technology that we don't currently possessindeed, we don't even have the technology to send a single human to Mars!",0,0,0,0
+ELA,8,565,"Part A: The author argues that terraforming poses ethical dilemmas.
+Part B: We would be better off dedicating time and effort to protecting and healing this planet, rather than finding ourselves a new one.",0,0,0,0
+ELA,8,566,"A: The Earth is dying.
+B: terraforming poses ethical dilemmas",0,0,0,0
+ELA,8,567,"Part A: We should focus on protecting and healing this planet.
+Part B: We will be better off.",0,0,0,0
+ELA,8,568,"Part A: The future of life on this planet is uncertain.
+Part B: The complexities of moving to another planet are unrealistic.",0,0,0,0
+ELA,8,569,PART A: The author's primary argument is that terraforming is a lot harder than you might think.,0,0,0,0
+ELA,8,570,PART A: We should develop the technology to travel to and terraform Mars.,0,0,0,0
+ELA,8,571,Part B: The author explains that terraforming is when you make a planet habitable.,0,0,0,0
+ELA,8,572,Part B: terraforming,0,0,0,0
+ELA,8,573,The author is saying we should terraform Mars because it's closest to Earth. You can tell because they talk about how Mars is the most popular planet for terraforming.,0,0,0,0
+ELA,8,574,"The passage argues that because we can't send humans to Mars yet, we shouldn't try to save Earth. This is proven by how the author mentions climate change and pollution.",0,0,0,0
+ELA,8,575,"Its simple - either we terraform Mars or we die, since we're destroying this planet. Thats what the author proves by showing Earth has problems.",0,0,0,0
+ELA,8,576,"We might need to terraform mars at some point once we destroy this planet, but we don't have the technology yet so we need to get on that.",0,0,0,0
+ELA,8,577,"A: We can't terraform Mars yet
+B: We need to heal this planet because it's polluted",0,0,0,0
+ELA,8,578,We are destroying this planet but we should try to save it instead because we can't go to Mars,0,0,0,0
+ELA,8,579,"Part A: The primary argument is the earth is dying. 
+Part B: climate change, pollution, and resource depletion.",0,0,0,0
+ELA,8,580,"Part A: Mars is the most popular candidate for terraforming. 
+Part B: Mars is close and similar to Earth.",0,0,0,0
+ELA,8,581,"Part A: The author maintains that settling a new planet is not a realistic solution to Earth's environmental problems.
+
+Part B: The author points out that we do not even have the technology to send a single human to Mars, highlighting the impracticality of colonizing another planet.",1,1,1,1
+ELA,8,582,"Part A: We would be better off focusing on healing Earth than trying to find a new planet to live on.
+
+Part B: The author points out that terraforming Mars would require resources and technology that we currently don't possess—we don't even have the technology to send a single human to Mars! This highlights why settling a new planet is unrealistic.",1,1,1,1
+ELA,8,583,"Part A: While it may be tempting to solve Earth's issues by colonizing another planet, the author argues that this is neither a practical nor an ethical solution.
+
+Part B: The author points out that we lack the technology to send people to Mars, highlighting one of the major obstacles to off-planet colonization.",1,1,1,1
+ELA,8,584,"Part A: The author believes that settling a new planet is not a viable solution to Earth's environmental problems.
+
+Part B: However, terraforming Mars would require changing its atmosphere, temperature, surface, and ecology—which is extremely complex.",1,1,1,1
+ELA,8,585,"Part A: The author argues that migrating to another planet is not a feasible solution to Earth's environmental problems.
+
+Part B: The author states that we lack the resources and technology necessary to terraform Mars.",1,1,1,1
+ELA,8,586,"A: Settling a new planet is not a realistic solution to Earth's environmental problems.
+
+B: We can't even send a single human to Mars with current technology.",1,1,1,1
+ELA,8,587,"Part A: We should focus on saving Earth rather than searching for a new planet to inhabit.
+Part B: Terraforming Mars would require resources and technology we currently lack.",1,1,1,1
+ELA,8,588,"Part A: Settling a new planet is not a realistic solution to our environmental problems.
+Part B: Some people believe planets should be left in their natural, undisturbed state.",1,1,1,1
+ELA,8,589,"PART A: The author's primary argument is that we should focus on fixing Earth's problems instead of trying to colonize other planets.
+
+PART B: The author notes that we lack the technology to send humans to Mars, let alone terraform it.",1,1,1,1
+ELA,8,590,"PART A: We should not consider terraforming another planet as a practical solution to Earth's environmental issues.
+
+PART B: We lack the necessary resources and technology to make another planet habitable.",1,1,1,1
+ELA,8,591,"Part A: The author argues that it's unrealistic to think we can solve Earth's problems by moving to a new planet.
+
+Part B: The author explains that colonizing other planets presents ethical dilemmas, such as the idea that planets should be left in their natural state.",1,1,1,1
+ELA,8,592,"Part A: The author believes we should focus on healing our own planet instead of searching for a new home in space.
+
+Part B: Terraforming Mars would require complex changes to its atmosphere, temperature, surface, and ecology.",0,1,1,1
+ELA,8,593,"Part A: The author is arguing that migrating to another planet isn't a realistic solution to Earth's environmental problems.
+
+Part B: You can tell because they point out that we don't even have the technology to send a single human to Mars.",1,1,1,1
+ELA,8,594,The passage argues that we should focus on protecting and healing Earth instead of trying to find a new planet to live on. This is proven by how the author mentions that terraforming Mars would require resources and technology that we don't currently possess.,1,1,1,1
+ELA,8,595,"Part A: The author argues that moving to a new planet won't fix the environmental problems we're dealing with on Earth.
+
+Part B: He shows that we don't have the tech to send people to Mars, so colonizing it isn't realistic.",1,1,1,1
+ELA,8,596,"The author says we shouldn't move to another planet to fix Earth's problems because it's not practical or ethical, and one reason is that some people think planets should stay in their natural, undisturbed state.",1,1,1,1
+ELA,8,597,"A: We should fix Earth instead of trying to colonize other planets.
+
+B: We don't have the resources and technology to terraform Mars.",1,1,1,1
+ELA,8,598,"Part A: We can't fix our environmental problems by moving to a new planet.
+
+Part B: The author says we can't even send a single person to Mars with our current technology.",1,1,1,1
+ELA,8,599,"Part A: The primary argument is that we should heal Earth instead of settling on a new planet.
+
+Part B: Terraforming poses ethical dilemmas, such as whether we should alter other planets.",1,1,1,1
+ELA,8,600,"Part A: Colonizing another planet is not a realistic solution to Earth's environmental issues.
+Part B: We do not have the resources or technology to terraform Mars.",1,1,1,1
+ELA,9,641,The Silk Road is a trade route that has been in use for over 2000 years and allows inventions to travel from China to the rest of the world. Today the Silk Road is still an important way that things and ideas are traded.,0,0,0,0
+ELA,9,642,"The Silk Road, a system of trade routes that changed the course of history, extended over 4,000 miles from ancient China to the Mediterranean Sea. From around 200 B.C.E. to 1453 C.E., the Silk Road allowed people from Asia, the Middle East, and parts of Africa and Europe to trade goods like silk, tea, spices, cloth, and jade.",0,0,0,0
+ELA,9,643,"The Silk Road was responsible for the spread of different religions and philosophies. Buddhism, now one of the major religions of East Asia, was introduced to China by Buddhist monks traveling along the Silk Road.",0,0,0,0
+ELA,9,644,The Silk Road was really long and had a bunch of things to sell on it.,0,0,0,0
+ELA,9,645,The Silk Road was a system of trade routes that changed the course of history.,0,0,0,0
+ELA,9,646,The Silk Road was important because it led to people using compasses and making writing materials cheaper and more widely available.,0,0,0,0
+ELA,9,647,"The Silk Road was important for trade. Things like silk, tea, and spices were sold there.",0,0,0,0
+ELA,9,648,"Some of the inventions and ideas that were exchanged on the Silk Road were paper, compasses, and Buddhism. These were all new things.",0,0,0,0
+ELA,9,649,"The Silk Road helped spread paper to Europe in the 12th and 13th centuries. Paper was cheaper than other writing materials. The compass also spread on the Silk Road and helped people navigate, and buddhist monks used the Silk Road too.",0,0,0,0
+ELA,9,650,"The Silk Road was 4,000 miles long and went from China to the Mediterranean Sea. People traded silk, tea, spices, cloth, and jade on it from 200 B.C.E. to 1453 C.E.",0,0,0,0
+ELA,9,651,"The amazing Silk Road was the most important trade route ever created! It helped spread cool inventions like paper and the compass, which must have been really exciting for ancient people to discover.",0,0,0,0
+ELA,9,652,The Silk Road was used by merchants and explorers. They needed compasses to find their way around. Buddhism spread to China because of monks who traveled on it.,0,0,0,0
+ELA,9,653,"The Silk Road was a huge network of trade routes that went from China all the way to the Mediterranean Sea and was used for centuries by different people. Merchants would trade things like silk and spices and jade, but they also spread new ideas and inventions like paper and the compass. Paper was really important because it made writing materials cheaper, and the compass helped people navigate better, plus Buddhism spread to China because of Buddhist monks who traveled on the Silk Road. All of these things changed history and still affect us today.",0,0,0,0
+ELA,9,654,The Silk Road was built to help spread Buddhism to China. Then people started using it to trade paper and compasses between different countries.,0,0,0,0
+ELA,9,655,"Through the dangerous and mysterious Silk Road, brave traders risked their lives to bring amazing treasures to distant lands. Without their courage, we might never have known about paper or Buddhism.",0,0,0,0
+ELA,9,656,The silk road connected China to the rest of the world. It was only used for transporting silk and spices across Asia.,0,0,0,0
+ELA,9,657,Silk road was used long time ago. It is not used anymore to exchange goods.,0,0,0,0
+ELA,9,658,The Silk Road was a system of transportation. It primarily moved silk and water between China and Europe.,0,0,0,0
+ELA,9,659,"We would not have paper, the compass, or Buddhism without the Silk Road because it was where these things were invented. These were really important ideas that shaped life as we know it today, so we owe a lot to the Silk Road.",0,0,0,0
+ELA,9,660,"The Silk Road was mainly a way for people to trade silk, tea, spices, cloth, and jade, but it proved to be far more important than that because it also gave us paper, compasses, and helped spread religions. It connected Europe and Asia for over a thousand years, and we can still see its impact today even though it is gone.",1,1,0,1
+ELA,9,661,"The Silk Road is a significant trade route that connects China to the Mediterranean and allows people to trade goods like silk, spices, and jade. It also allows inventions like paper and the compass, as well as ideas and religions such as Buddhism, to spread, shaping both ancient and modern societies.",0,0,0,0
+ELA,9,662,"The Silk Road, an important trade route that changed history, extended over 4,000 miles from Asia to Europe. From around 200 B.C.E. to 1453 C.E., it connected Asia, the Middle East, Africa, and Europe, facilitating the exchange of goods, inventions like paper and the compass, and ideas such as Buddhism.",1,1,1,1
+ELA,9,663,"The Silk Road was an important trade route that connected ancient China to the Mediterranean, allowing for the exchange of goods like silk and spices. Paper and the compass, groundbreaking inventions, spread along this route, as did religions like Buddhism, impacting the development of civilizations across continents.",1,1,1,1
+ELA,9,664,"The Silk Road was really long and connected many parts of the world. People traded goods and shared ideas and inventions like paper, the compass, and Buddhism. It changed history and shaped both the ancient and modern worlds.",1,1,1,1
+ELA,9,665,"The Silk Road was a vast trade network that connected China to the Mediterranean and changed history. It facilitated the exchange of goods like silk and spices, ideas and inventions such as paper and the compass, and spread religions like Buddhism.",1,1,1,1
+ELA,9,666,"The Silk Road was important because it connected Asia, the Middle East, Africa, and Europe, allowing people to trade goods and share ideas and inventions. It helped spread things like paper, the compass, and Buddhism, which changed history.",1,1,1,1
+ELA,9,667,"The Silk Road was important for trade. People exchanged goods, inventions, and ideas there. Things like paper, the compass, and Buddhism spread along it, changing history and influencing both ancient and modern societies.",1,1,1,1
+ELA,9,668,"Some of the goods that were traded on the Silk Road were silk and spices. People also shared inventions like paper and the compass, and ideas like Buddhism. The Silk Road connected many different parts of the world and changed history.",1,1,1,1
+ELA,9,669,"The Silk Road connected ancient China to the Mediterranean and was a major trade route. It spread paper, the compass, and Buddhism, which had lasting impacts on the world. It allowed people to exchange goods, inventions, and ideas across continents.",1,1,1,1
+ELA,9,670,"The Silk Road was over 4,000 miles long and connected Asia, the Middle East, Africa, and Europe. People traded goods on it, spread inventions like paper and the compass, and shared ideas like Buddhism. It shaped both ancient and modern history.",1,1,1,1
+ELA,9,671,"The incredible Silk Road connected China to the Mediterranean from 200 B.C.E. to 1453 C.E., making it a vital trade route! It allowed the exchange of goods like silk and spices, and spread amazing inventions like paper and the compass, as well as ideas like Buddhism, shaping the development of civilizations.",1,1,1,1
+ELA,9,672,"The Silk Road was used by people from different regions. They traded goods and shared ideas and inventions like paper and the compass. Buddhism spread because of it, and it had a big impact on history.",1,1,0,1
+ELA,9,673,"The Silk Road was a really important trade route that connected the East and the West, linking places like Asia, the Middle East, Africa, and Europe. People used it to trade goods like silk and spices, but they also shared ideas and inventions such as paper, the compass, and Buddhism. These exchanges shaped the ancient world and still influence our modern society today.",1,1,1,1
+ELA,9,674,"The Silk Road connected ancient China to the Mediterranean to trade goods like silk and spices. It also spread inventions like paper and the compass, and ideas like Buddhism, which changed history.",1,1,1,1
+ELA,9,675,"Through the Silk Road's dangerous routes, brave traders connected distant parts of the world. They exchanged valuable goods, important inventions, and influential ideas like paper, the compass, and Buddhism. This trade network shaped both the ancient and modern worlds.",0,0,0,0
+ELA,9,676,"The Silk Road connected China to the Mediterranean. It was a major trade route for exchanging goods and spreading ideas and inventions. It spread things like paper, the compass, and Buddhism, which changed history.",1,1,1,1
+ELA,9,677,"Silk Road was used long time ago to connect Asia, the Middle East, Africa, and Europe. It helped people exchange goods like silk and spices, inventions like paper and the compass, and ideas like Buddhism. This trade route shaped civilizations.",1,1,1,1
+ELA,9,678,"The Silk Road was a trade route that connected different regions. It moved goods, ideas, and inventions like paper and the compass. It greatly impacted history.",1,1,0,1
+ELA,9,679,"We wouldn't have paper, the compass, or Buddhism without the Silk Road because it spread these things to the rest of the world. The Silk Road was a major trade route that connected China to the Mediterranean, allowing the exchange of goods, ideas, and inventions, and it had lasting effects on the world.",0,1,1,1
+ELA,9,680,"The Silk Road was mainly a way for people to trade goods like silk and spices, but it turned out to be much more important because it also gave us paper, the compass, and helped spread Buddhism. It connected many parts of the world, and we can still see its impact on our modern world today.",1,1,0,1
+ELA,10,721,"No, the theme is about how technology has taken over Janelle's life. The car immobilizes her and the appliances work before she even arrives.",0,0,0,0
+ELA,10,722,"Yes. ""She tried to say hello, but he didn't acknowledge her. Understandable, she thought. It was impossible for him to distinguish her from the background images in his ad-supported Alternative-Reality display.""",1,0,0,0
+ELA,10,723,"The story does not support the theme that technology can isolate us from other people. The story says that Janelle didn't feel lonesome, so she must not have felt isolated.",0,0,0,0
+ELA,10,724,"The story supports the theme that technology can isolate us from other people. IDK lol about evidence though, maybe the screens with alternative reality. Or the breakfast sandwich machine.",0,0,0,0
+ELA,10,725,The story supports the theme that technology can isolate us from other people because Janelle's Helpr device told her that she had an elevated heart rate.,0,0,0,0
+ELA,10,726,No the text does not support the theme. It starts with Janelle getting help from technology.,0,0,0,0
+ELA,10,727,No. Janelle did not feel lonesome.,0,0,0,0
+ELA,10,728,Yes: the neighbor proves it.,0,0,0,0
+ELA,10,729,"The text does support the theme. For example, she her neighbor but they'd never spoken.",0,1,0,0
+ELA,10,730,"Yes, because when everything is automated nobody has to interact with each other anymore.",0,0,0,0
+ELA,10,731,"The story doesn't support the theme because it doesn't say anything about isolation. It talks about some types of technology, though.",0,0,0,0
+ELA,10,732,"The story supports the theme. We can see this in paragraph 2, which says, ""It was impossible for him to distinguish her from the background images in his ad-supported Alternative-Reality"" display. In paragraph 1, it also says, ""He looked vaguely familiar, but they'd never spoken.""",0,1,1,1
+ELA,10,733,"yes, because it shows this when they don't talk to each other",0,0,0,0
+ELA,10,734,"""He didn't acknowledge her"" shows this.",0,0,0,0
+ELA,10,735,"The story supports this theme because Janelle is lonely, which makes her use technology, which then makes her even more lonely. The evidence is that she doesn't know the word ""lonesome.""",0,0,0,0
+ELA,10,736,Janelle did not feel lonesome. She did not know how to put that feeling into a single word.,0,0,0,0
+ELA,10,737,"Yes. The text shows that technology brings people closer together, as Janelles appliances prepare breakfast for her and she has time to communicate with her neighbor.",0,0,0,0
+ELA,10,738,"No, the text does not support this theme because Janelle has a strong connection with her neighbor.",0,0,0,0
+ELA,10,739,"Yes, the text supports this theme. There are lots of examples of new apps and inventions like DrivePod and Helpr that don't really seem to make life better.",0,0,0,0
+ELA,10,740,"No, the text doesn't really support this theme. It says at the end that Janelle did not feel lonesome.",0,0,0,0
+ELA,10,741,"Yes, the theme is about how technology can isolate us from other people. Janelle's neighbor doesn't notice her because his headset projects ads over her face, which prevents them from connecting.",1,1,1,1
+ELA,10,742,"Yes. ""She tried to say hello, but he didn't acknowledge her. Understandable, she thought. It was impossible for him to distinguish her from the background images in his ad-supported Alternative-Reality display."" This demonstrates how technology can be a barrier between people.",1,1,1,1
+ELA,10,743,"The story supports the theme that technology can isolate us from other people. The story says that Janelle feels a deep loneliness she can't name, even though she is surrounded by technology, so technology isn't fulfilling her need for human connection, leading to isolation.",0,1,0,0
+ELA,10,744,"The story shows that tech can keep people apart. IDK, but like, Janelle and her neighbor never talk 'cause his headset blocks him from seeing her. So yeah, technology is isolating them.",1,1,1,1
+ELA,10,745,"The story supports the theme that technology can isolate us from other people because Janelle's neighbor doesn't acknowledge her due to his AR display covering her with ads. This prevents them from interacting, showing how technology can cause isolation.",1,1,1,1
+ELA,10,746,"Yes the text shows that technology can make us feel alone. Janelle tries to greet her neighbor, but he doesn't respond because he's wearing a headset.",1,1,1,1
+ELA,10,747,"Yes. The theme is supported. Technology hinders social interaction in the story. Janelle's neighbor can't see her because of his AR headset, so they don't communicate. This shows that technology can isolate people.",1,1,1,1
+ELA,10,748,Yes: Janelle feels an unnamed loneliness. This shows that technology can isolate us from others.,0,0,0,0
+ELA,10,749,"The text does support the theme. For example, Janelle's neighbor doesn't notice her because his headset projects ads over her face. This prevents them from interacting.",1,1,1,1
+ELA,10,750,"Yes, because Janelle and her neighbor never interact since his AR display hides her behind ads. So technology is keeping them apart.",1,1,1,1
+ELA,10,751,"The story supports the theme because it shows how technology causes isolation. When Janelle tries to greet her neighbor, he doesn't see her because he's wearing his headset. It shows that technology prevents human connection.",1,1,1,1
+ELA,10,752,"The story supports the theme. We can see this when it says, ""Janelle feels a deep loneliness she can't name, even though her devices cater to her every need."" This implies that technology isn't fulfilling her need for human interaction.",0,0,0,0
+ELA,10,753,"yes, because it shows this when Janelle's neighbor doesn't acknowledge her because his AR headset covers her with ads. this keeps them from interacting and causes isolation.",1,1,1,1
+ELA,10,754,"""Her neighbor can't see her due to his headset's ads, so they don't communicate"" shows how technology isolates Janelle from others. This demonstrates how technology can prevent social connections.",1,0,1,1
+ELA,10,755,"The story supports this theme because Janelle doesn't know her neighbor, and technology is keeping them apart. The evidence is that when she tries to say hello, he doesn't notice her because of his headset.",1,1,1,1
+ELA,10,756,"Janelle felt an aching loneliness she couldn't name, even though she was surrounded by smart devices. This shows that technology can isolate people and doesn't replace human connection.",1,1,0,1
+ELA,10,757,"Yes. The text shows that technology hinders interaction, as Janelle's neighbor doesn't see her because his AR display projects ads over her face. This technological barrier leads to their isolation.",1,1,1,1
+ELA,10,758,"Yes, the text supports this theme because Janelle and her neighbor have never spoken due to his headset blocking his view of her. This shows that technology is preventing them from connecting.",1,1,1,1
+ELA,10,759,"Yes, the text supports this theme. Janelle's neighbor doesn't notice her because his AR headset is displaying ads, which prevents them from interacting and shows how technology can be a barrier between people.",1,1,1,1
+ELA,10,760,"Yes, the text does support this theme. It says that Janelle feels a deep loneliness she can't name, even though technology caters to her every need.",1,1,0,1
+Math,11,41,"28xy^4, 14x^2y^4, 28x^4y^4, 140xy^4, 140x^2y^8",0,0,0,0
+Math,11,42,"-2x, -7y, 14xy, xy^3",1,0,0,0
+Math,11,43,2*7*x*y*y*y*y,0,0,0,0
+Math,11,44,"14, xy, 4x, y, 4",0,0,0,0
+Math,11,45,"2x, 7y, x^2, y, 14",0,0,0,0
+Math,11,46,"14 +x, y, xy, x^2, y^2",0,0,0,0
+Math,11,47,"1, 4, 7, 10, 14",0,0,0,0
+Math,11,48,"1, 2, 14, x^4, y^4",0,0,0,0
+Math,11,49,"14, 14x, 14xy, 14xy^4",0,0,0,0
+Math,11,50,"x, 6y, 8, 2, y",0,0,0,0
+Math,11,51,"3, x, 8y, 4, y",0,0,0,0
+Math,11,52,"1, -1, 14, 4y, 4x,",0,0,0,0
+Math,11,53,"-14, 14, x^0, x^5, x^4",0,0,0,0
+Math,11,54,"100, -3, 21, 0, 5",0,0,0,0
+Math,11,55,"-1,-2,-3,-4,-5",0,0,0,0
+Math,11,56,"y, sqrt(y), x, sqrt(x), 20",0,0,0,0
+Math,11,57,"1
+14
+x
+y
+4",0,0,0,0
+Math,11,58,"1
+2
+4
+7
+14",0,0,0,0
+Math,11,59,"14
+x
+y
+y^4",0,0,0,0
+Math,11,60,"x
+y
+14
+xy
+y^4",1,1,1,1
+Math,11,61,"1, x, y, 2, 7x",1,1,1,1
+Math,11,62,"-1, y^2, 14, xy^3, 2y",1,1,1,1
+Math,11,63,"2, 7, x y^4, -2, y",1,1,1,1
+Math,11,64,"14, -7x, y^3, x, y^4",1,1,1,1
+Math,11,65,"y, y^2, 1, 2xy, 7y^3",1,1,1,1
+Math,11,66,"-2, 14y^2, x, y^4, 7",1,1,1,1
+Math,11,67,"2x, y, 1, 7y^2, xy^3",1,1,1,1
+Math,11,68,"y^4, -1, 14, x, 2y",1,1,1,1
+Math,11,69,"7x, y^2, 2, y, 14y^3",1,1,1,1
+Math,11,70,"1, x y^4, -7, y^3, 2",1,1,1,1
+Math,11,71,"y, 2, 7, x, y^4",1,1,1,1
+Math,11,72,"14, y^2, x, 2y^3, -1",1,1,1,1
+Math,11,73,"2y, 7x, y, 1, xy^4",1,1,1,1
+Math,11,74,"-7, y^3, 14y^2, x, 2",1,1,1,1
+Math,11,75,"y^4, 2xy, 1, 7, y",1,1,1,1
+Math,11,76,"x, y^2, 14, -2, y^4",1,1,1,1
+Math,11,77,"2, y, 7x, y^3, 1",1,1,1,1
+Math,11,78,"y^2, 14, x y^4, 2, y",1,1,1,1
+Math,11,79,"1, 2y, 7, x, y^4",1,1,1,1
+Math,11,80,"-1, y^3, 14y^2, x, 2",1,1,1,1
+Math,12,121,9x + 6y = 166,0,0,0,0
+Math,12,122,"y = x + 1
+2y = 2x + 2",0,0,0,0
+Math,12,123,5x + 3 = -5x + 3,0,0,0,0
+Math,12,124,6y - 8 + 6y = -8,0,0,0,0
+Math,12,125,0.5g = 2,0,0,0,0
+Math,12,126,6u = 36,0,0,0,0
+Math,12,127,x + 2 + x - 2 = 0,0,0,0,0
+Math,12,128,x + 5 = -x - 5,0,0,0,0
+Math,12,129,3x + 2 = 5,0,0,0,0
+Math,12,130,5y + 3 = 5y - 2,0,0,0,0
+Math,12,131,x - 5 = 0,0,0,0,0
+Math,12,132,x^2 = 2x,0,0,0,0
+Math,12,133,x = 0,0,0,0,0
+Math,12,134,x,0,0,0,0
+Math,12,135,w + 2 = w + 3,0,0,0,0
+Math,12,136,x = x + 1,0,0,0,0
+Math,12,137,x^2 = -6,0,0,0,0
+Math,12,138,x^10 +1 = 9,0,0,0,0
+Math,12,139,x+x+x=3,0,0,0,0
+Math,12,140,100=y+100,0,0,0,0
+Math,12,141,3x + 7 = 3x + 7,1,1,1,1
+Math,12,142,5y - 2 = 5y - 2,1,1,1,1
+Math,12,143,4z = 4z,1,1,1,1
+Math,12,144,6a + 12 - 6a = 12,1,1,1,1
+Math,12,145,9m - 3m = 6m,1,1,1,1
+Math,12,146,2b + 5b = 7b,1,1,1,1
+Math,12,147,8k - 4k + 2k = 6k,1,1,1,1
+Math,12,148,10p = 10p,1,1,1,1
+Math,12,149,7n + 3 - 7n = 3,1,1,1,1
+Math,12,150,12c - 5c + 5c = 12c,1,1,1,1
+Math,12,151,15d = 15d,1,1,1,1
+Math,12,152,11s - 6s + 6s = 11s,1,1,1,1
+Math,12,153,14t + 0 = 14t,1,1,1,1
+Math,12,154,13u - 7u + 7u = 13u,1,1,1,1
+Math,12,155,16v = 16v,1,1,1,1
+Math,12,156,17w - 9w + 9w = 17w,1,1,1,1
+Math,12,157,18x + 2x - 2x = 18x,1,1,1,1
+Math,12,158,19y = 19y,1,1,1,1
+Math,12,159,20z - 10z + 10z = 20z,1,1,1,1
+Math,12,160,21a = 21a,1,1,1,1
+Math,13,201,x(x+1)^2(x^2-1),0,0,0,0
+Math,13,202,x^5y+ 6x^4y - 2x^2y + y^5,0,0,0,0
+Math,13,203,7y^5 - 3z^2 + y^4 + 13,0,0,0,0
+Math,13,204,11c^5 + 12c^4 - 3c^3 + 2c^2 -6c +8,0,0,0,0
+Math,13,205,5x^3 + 5x^2 + 5x + 5,0,0,0,0
+Math,13,206,xy^4 + x^3 + y^2 -4,1,0,1,1
+Math,13,207,(abcd)^5,0,0,0,0
+Math,13,208,(x + x + x + x)^5,0,0,0,0
+Math,13,209,3x^6 + 2x^4 - x^2 + 1,0,0,0,0
+Math,13,210,x^5 - x^4 + x^3 - x^2 + x,0,0,0,0
+Math,13,211,x^5 + 1 + 2x +x^2,0,0,0,0
+Math,13,212,x^5 + x^3 + x^2 + x + 4,0,0,0,0
+Math,13,213,5x*5 + 4x*4 + 3x*3 + 2x*2,0,1,0,0
+Math,13,214,-2(a^4)(b)  - 3a + 1,0,0,0,0
+Math,13,215,x*y^2 + x^5*y^3 + y^4 + y^5,1,0,0,0
+Math,13,216,5x^6+3x^3+2x^3+10,1,0,0,0
+Math,13,217,w^2+w^4+w^10+w^12,0,0,0,0
+Math,13,218,4w^5 + 6x^4 - 9y^2 + z^3,0,0,0,0
+Math,13,219,X+x^2+x^3+x^4+x^5,0,0,0,0
+Math,13,220,8x^5+7x^4-6x^3,0,0,0,0
+Math,13,221,3x^5 - 2x^3 + x - 7,1,1,1,1
+Math,13,222,-x^5 + 4x^4 - x^2 + 5,1,1,1,1
+Math,13,223,2y^5 - y^3 + 3y - 8,1,1,1,1
+Math,13,224,5z^5 - 3z^4 + 2z^2 - z,1,1,1,1
+Math,13,225,-4a^5 + a^3 - 2a + 6,1,1,1,1
+Math,13,226,7b^5 - 5b^3 + b - 10,1,1,1,1
+Math,13,227,6m^5 - 2m^4 + 4m^2 - 3,1,1,1,1
+Math,13,228,-3n^5 + 2n^3 - n + 9,1,1,1,1
+Math,13,229,8p^5 - p^4 + 3p^2 - 4,1,1,1,1
+Math,13,230,-2q^5 + 5q^3 - 2q + 11,1,1,1,1
+Math,13,231,9r^5 - 4r^3 + r - 12,1,1,1,1
+Math,13,232,-5s^5 + 3s^4 - s^2 + 2,0,1,1,1
+Math,13,233,4t^5 - t^3 + 2t - 5,1,1,1,1
+Math,13,234,-6u^5 + 2u^4 - 3u^2 + u,1,1,1,1
+Math,13,235,10v^5 - 3v^3 + v - 7,1,1,1,1
+Math,13,236,-7w^5 + w^4 - 4w^2 + 3,1,1,1,1
+Math,13,237,11x^5 - 2x^4 + 5x^2 - x,1,1,1,1
+Math,13,238,-8y^5 + 4y^3 - 2y + 14,1,1,1,1
+Math,13,239,12z^5 - z^4 + 6z^2 - 2,1,1,1,1
+Math,13,240,-9a^5 + 3a^4 - a^2 + 4,1,1,1,1
+Math,14,281,"Keep constant, increase, and decrease",0,0,0,0
+Math,14,282,Increase both.,0,0,0,0
+Math,14,283,Increase A + (2/B).,0,0,0,0
+Math,14,284,Decrease A and keep B constant,0,0,0,0
+Math,14,285,Increase B at twice the rate that you increase A.,0,1,0,0
+Math,14,286,Keep A and B constant at a value of 1.,0,0,0,0
+Math,14,287,"Keep A and B constant, but multiply A * (2/B).",0,0,0,0
+Math,14,288,keep A constant and increase B,0,0,0,0
+Math,14,289,it depends on the size of A and B to start with,0,0,0,0
+Math,14,290,I need to know starting numbers to do this,0,0,0,0
+Math,14,291,Decrease,0,0,0,0
+Math,14,292,increase or decrease,0,0,0,0
+Math,14,293,don't decrease anything or keep anything constant,0,0,0,0
+Math,14,294,decres B,1,1,0,1
+Math,14,295,incrase a and cincrease b,0,0,0,0
+Math,14,296,Keep B constant,0,0,0,0
+Math,14,297,Decrease a little bit A and really increase B,0,0,0,0
+Math,14,298,Multiply A and B by non zero integer,0,0,0,0
+Math,14,299,Increase B more than A,0,0,0,0
+Math,14,300,Its a trick question. They always increase,0,0,0,0
+Math,14,301,Keep A constant and decrease B,1,1,1,1
+Math,14,302,Increase A; keep B unchanged.,1,1,0,1
+Math,14,303,Increase A and decrease B.,1,1,1,1
+Math,14,304,Keep A constant and decrease B,1,1,1,1
+Math,14,305,Increase A while keeping B constant.,1,1,1,1
+Math,14,306,Keep A constant and decrease B.,1,1,1,1
+Math,14,307,Increase A and decrease B.,1,1,1,1
+Math,14,308,keep B constant and increase A,1,1,1,1
+Math,14,309,decrease B and keep A the same,0,1,1,1
+Math,14,310,I need to increase A and decrease B.,1,1,1,1
+Math,14,311,"Increase A, keep B constant",1,1,1,1
+Math,14,312,"Decrease B, keep A constant",1,1,1,1
+Math,14,313,"don't change B, increase A",0,1,1,1
+Math,14,314,decrease B,1,1,0,1
+Math,14,315,incrase a and keep b constant,1,1,1,1
+Math,14,316,"Keep A constant, decrease B",1,1,1,1
+Math,14,317,Increase A and decrease B,1,1,1,1
+Math,14,318,Increase A and keep B constant,1,1,1,1
+Math,14,319,Decrease B while keeping A constant,1,1,1,1
+Math,14,320,"Its simple, increase A and decrease B",1,1,1,1
+Math,15,361,"1. x
+2. Multiply first equation by 2. Then add the equations.",0,0,0,0
+Math,15,362,"1. y
+2. Multiply the first equation by -2. Then subtract the equations.",0,0,0,0
+Math,15,363,"1. y
+2. Graph both equations and look for the intersection point.",0,0,0,0
+Math,15,364,Eliminate Y by subtracting the second equation from the first one.,0,0,0,0
+Math,15,365,Eliminate Y by setting the equation to be 3y = 10 - 2x,0,0,0,0
+Math,15,366,Eliminating x by setting x equal to 6y + 15,0,0,0,0
+Math,15,367,Eliminating y by adding the equations so that y = 4x + 5,1,0,1,1
+Math,15,368,add them together to eliminate x,0,0,0,0
+Math,15,369,"multiply the top equation by 2, multiply the bottom equation by -2, then add them together to eliminate y",0,0,0,0
+Math,15,370,"solve for y in the first equation, then substitute into x in the second equation to eliminate y",1,0,0,0
+Math,15,371,I think I can get rid of y by setting it to 0,0,0,0,0
+Math,15,372,I would eliminate x by dividing both equations by 2x.,0,0,0,0
+Math,15,373,x,0,0,0,0
+Math,15,374,I'd eliminate x by replacing x with y,0,0,0,0
+Math,15,375,eliminate x and solve for y,0,0,0,0
+Math,15,376,"eliminate y by adding the equations together, and you'd get 2x = 5, so x = 0.4",1,1,1,1
+Math,15,377,set the equations equal to each other and solve for x,0,0,0,0
+Math,15,378,eliminate x by adding equation 1 and 2.,0,0,0,0
+Math,15,379,"eliminate y, equation 2 divided by equation 1.",0,0,0,0
+Math,15,380,"eliminate x, use x=0 to replace x",0,0,0,0
+Math,15,381,"1. y
+2. Add the two equations together since +3y and -3y cancel out.",1,1,1,1
+Math,15,382,"1. x
+2. Subtract the first equation from the second. Since both equations have 2x, 2x − 2x equals zero.",1,1,1,1
+Math,15,383,"1. x
+2. Multiply the first equation by -1 and add it to the second equation to eliminate x.",1,1,1,1
+Math,15,384,Eliminate x by solving the first equation for x and substituting into the second equation.,1,0,1,1
+Math,15,385,Eliminate y by adding the equations because the y coefficients are opposites (+3y and -3y).,1,1,1,1
+Math,15,386,"Eliminating x by subtracting the two equations because their x coefficients are the same, which will remove x.",1,1,1,1
+Math,15,387,"Eliminating y by adding the equations together, since +3y and -3y cancel out, allowing me to solve for x directly.",1,1,1,1
+Math,15,388,subtract the second equation from the first to eliminate x,1,1,1,1
+Math,15,389,add the two equations together to eliminate y since the y terms are opposites and will cancel out,1,1,1,1
+Math,15,390,"multiply the first equation by -1, then add it to the second equation to eliminate x",1,1,1,1
+Math,15,391,I think I can eliminate y by solving for y in the first equation and substituting it into the second equation.,1,0,1,1
+Math,15,392,"I would eliminate y by adding the equations because +3y and -3y sum to zero, simplifying the system to one variable.",1,1,1,1
+Math,15,393,x,0,0,0,0
+Math,15,394,"I'd eliminate x by subtracting the equations, which removes x because 2x minus 2x is zero.",1,1,1,1
+Math,15,395,Eliminate y and solve for x,0,0,0,0
+Math,15,396,"eliminate x by subtracting one equation from the other because the x coefficients are the same, and subtracting will eliminate x.",1,1,1,1
+Math,15,397,"add the equations to eliminate y since the y terms are opposites and will cancel out, leaving an equation with only x",1,1,1,1
+Math,15,398,eliminate x by subtracting equation 1 from equation 2.,1,1,1,1
+Math,15,399,eliminate x by solving for x in one equation and substituting into the other,1,0,1,1
+Math,15,400,"eliminate y, add the equations together to cancel +3y and -3y",1,1,1,1
+Math,16,441,The number of tickets is always a whole number.,0,0,0,0
+Math,16,442,"As the number of tickets goes up, the total purchase price goes up.",0,0,0,0
+Math,16,443,"This is a function because if something is in parentheses and there is another letter to the left of that parentheses, then that letter must be a function.",0,0,0,0
+Math,16,444,C is a function because it is equal to 14.89.,0,0,0,0
+Math,16,445,C is a function because it can produce two or more output values for a certain value of t.,0,0,0,0
+Math,16,446,The c(t) part tells us it's a function.,0,0,0,0
+Math,16,447,It's a function because you can buy as many tickets as you want.,0,0,0,0
+Math,16,448,It's a function because of the vertical line test.,0,0,0,0
+Math,16,449,It's a function because when you graph it it makes a line.,0,0,0,0
+Math,16,450,It's a function because you multiply $14.89 by however many tickets you want. Functions are when you do math operations to get an answer.,0,0,0,0
+Math,16,451,I know it's a function because it uses the function notation c(t) and has an equation. You plug in t and solve for the cost.,0,0,0,0
+Math,16,452,"because it shows that one ticket costs $14.89, two tickets cost $29.78, etc.",0,1,0,0
+Math,16,453,because it includes a variable that can have different values,0,0,0,0
+Math,16,454,It's a function because you can plug in t and get an answer. That's what makes it a function.,0,0,0,0
+Math,16,455,"c is a function because there's a pattern where each ticket costs the same amount, and the number of tickets is multiplied by the price.",0,0,0,0
+Math,16,456,It's a function because there are variables in it.,0,0,0,0
+Math,16,457,It's a function because the question said so.,0,0,0,0
+Math,16,458,It is a function because it's an equation.,0,0,0,0
+Math,16,459,It's a function because it cannot be solved without knowing the input values.,0,0,0,0
+Math,16,460,C is a function because you can use it to find out the price of tickets.,0,0,0,0
+Math,16,461,Each number of tickets corresponds to exactly one total cost.,1,1,1,1
+Math,16,462,"As you choose a number of tickets, you get exactly one total cost.",1,1,1,1
+Math,16,463,"This is a function because when you buy tickets, the total cost depends on how many tickets you buy. For each number of tickets \( t \), there is only one total cost \( c(t) \). So, \( c \) is a function.",1,1,1,1
+Math,16,464,C is a function because each number of tickets purchased corresponds to exactly one total cost. A given number of tickets will only have one total cost.,1,1,1,1
+Math,16,465,C is a function because each number of tickets t corresponds to exactly one total cost c(t).,1,1,1,1
+Math,16,466,"Because c(t) = 14.89t, each number of tickets t has only one total cost c(t). So, c is a function.",1,1,1,1
+Math,16,467,"It's a function because for each number of tickets you buy, there's exactly one total cost.",1,1,1,1
+Math,16,468,It's a function because each number of tickets purchased corresponds to exactly one total cost.,1,1,1,1
+Math,16,469,"It's a function because for every number of tickets you buy, there's only one total cost.",1,1,1,1
+Math,16,470,"It's a function because you multiply $14.89 by the number of tickets you buy to get the total cost. That means each number of tickets has exactly one total price, so each input has one output.",1,1,1,1
+Math,16,471,"I know it's a function because c(t) = 14.89t shows that the total cost c(t) depends only on t. There's no ambiguity; when you plug in a value for t, you get exactly one c(t). So, each number of tickets corresponds to one total cost.",1,1,1,1
+Math,16,472,"because the total cost is determined by a fixed rate per ticket, and this rate doesn't change. So one ticket costs $14.89, two tickets cost $29.78, etc. This means that for each number of tickets t, there is exactly one total cost c(t).",1,1,1,1
+Math,16,473,because each number of tickets corresponds to exactly one total cost,1,1,1,1
+Math,16,474,"It's a function because when you buy t tickets, you just multiply by the price per ticket to get the total cost c(t). So for every t, you get exactly one c(t). That means each number of tickets corresponds to one total cost.",1,1,1,1
+Math,16,475,"c is a function because for every number of tickets, there's only one total cost. Since each ticket costs the same amount, we multiply the number of tickets by the price per ticket to get the total cost.",1,1,1,1
+Math,16,476,It's a function because each number of tickets has only one total cost.,1,1,1,1
+Math,16,477,It's a function because each number of tickets t has only one total cost c(t) calculated by c(t) = 14.89t.,1,1,1,1
+Math,16,478,It's a function because each number of tickets t has only one total cost c(t).,1,1,1,1
+Math,16,479,It's a function because each number of tickets \( t \) corresponds to exactly one total cost \( c(t) \).,1,1,1,1
+Math,16,480,"C is a function because each number of tickets corresponds to exactly one total cost. Since the total cost depends only on the number of tickets and the fixed price per ticket, a given number of tickets will have only one total cost.",1,1,1,1
+Math,17,521,"There is no such triangle. 
+
+The statement is always true, because the bisector creates 2 triangles with angle-side-angle congruence (the bisected angle, the side formed by the bisector, and the 2 right angles where it intersects the other side). By CPCTC, the side opposite the bisected angle must be congruent. So the bisector always bisects the triangle's third side.",0,0,0,0
+Math,17,522,"A triangle with side lengths of 8, 7, and 13 cm.",0,0,1,0
+Math,17,523,"Sides: 2 inches, 4 inches, and 10 inches
+Because the bisector between the short sides doesn't cut the 10 inch side in half.",0,0,0,0
+Math,17,524,An angle bisector will always bisect the third side of an equilateral triangle (a triangle with three 60 degree angles)/,0,0,0,0
+Math,17,525,"Any measurements of angles that add up to 360 degrees, which is the sum of angle measurements in a triangle.",0,0,0,0
+Math,17,526,"I don't think that can be false, if an angle is bisected then that has to also bisect the third size of the triangle, right?",0,0,0,0
+Math,17,527,any triangle where all the sides are different lengths,0,0,0,0
+Math,17,528,45-45-90 degrees,0,0,0,0
+Math,17,529,This would work for any triangle.,0,0,0,0
+Math,17,530,"A triangle with angles 70, 70, 70",0,0,0,0
+Math,17,531,"A triangle with lengths 2, 3, and 6",0,0,0,0
+Math,17,532,Two angles 45 degrees and 45 degrees,0,0,0,0
+Math,17,533,an equilateral triangle because the angle bisector would bisect the third side,0,0,0,0
+Math,17,534,"3, 4, 5",0,1,0,0
+Math,17,535,"A triangle where the lengths of the sides were 3, 4, and 5 because that would make the statement false",0,0,1,0
+Math,17,536,a triangle with two 50 degree angles and one 90 degree angle because then the angle bisector wouldn't pass through the midpoint of the side opposite one of the 50 degree angles,0,0,0,0
+Math,17,537,"45, 45, and 90 because the angle bisector doesn't go through the centroid, so it can't bisect the third side.",0,0,0,0
+Math,17,538,"This is false for an equilateral triangle with 60 angles because all angle bisectors are the same length, so they can't bisect different sides.",0,0,0,0
+Math,17,539,An equilateral triangle.,0,0,0,0
+Math,17,540,Any triangle has this property.,0,0,0,0
+Math,17,541,"Consider a triangle with side lengths 5 cm, 6 cm, and 7 cm.
+
+In this triangle, the angle bisector from the angle opposite the 7 cm side does not bisect that side. According to the Angle Bisector Theorem, the angle bisector divides the opposite side into segments proportional to the adjacent sides. Therefore, the 7 cm side is divided into two segments that are not equal in length.",1,1,1,1
+Math,17,542,"A triangle with angles of 40, 50, and 90, where the angle bisector of the 90 angle does not bisect the opposite side.",1,1,1,1
+Math,17,543,"Sides: 7 cm, 9 cm, and 12 cm  
+Because the bisector between the short sides doesn't cut the 12 cm side in half.",1,1,1,1
+Math,17,544,"An angle bisector will not bisect the opposite side in a triangle with angles of 30 degrees, 70 degrees, and 80 degrees (a triangle that is not equilateral).",0,1,1,1
+Math,17,545,"Any triangle with sides measuring 8 cm, 15 cm, and 17 cm, which form a right-angled triangle. The angle bisector of the right angle does not bisect the hypotenuse, so it does not split it into two equal lengths.",1,1,1,1
+Math,17,546,"I think in a triangle with sides 5 cm, 5 cm, and 8 cm, the angle bisector from one of the base angles (the ones opposite the 5 cm sides) doesn't bisect the opposite side, which is one of the equal sides.",1,1,0,1
+Math,17,547,"any triangle with angles of 45 degrees, 55 degrees, and 80 degrees where the angle bisector of the 80-degree angle doesn't bisect the opposite side",1,1,1,1
+Math,17,548,6-7-9 cm,1,0,0,0
+Math,17,549,"In a triangle with sides 3 cm, 4 cm, and 6 cm, the angle bisector from the angle opposite the 6 cm side does not bisect the opposite side.",1,1,1,1
+Math,17,550,"A triangle with angles 20, 80, 80, where the angle bisector from one of the 80-degree angles does not bisect the opposite side.",1,1,1,1
+Math,17,551,"A triangle with sides 10 cm, 10 cm, and 12 cm, where the angle bisector from one of the base angles does not bisect the opposite side.",0,1,1,1
+Math,17,552,"Sides 9 cm, 12 cm, and 15 cm; angle bisector of right angle doesn't bisect hypotenuse",1,1,1,1
+Math,17,553,"a triangle with angles of 35, 65, and 80, because the angle bisector of the 80 angle does not bisect the opposite side",1,1,1,1
+Math,17,554,"7, 24, 25",0,0,1,0
+Math,17,555,"A triangle with sides 6 cm, 6 cm, and 10 cm because the angle bisector from one of the base angles does not bisect the opposite side",0,1,0,0
+Math,17,556,"a triangle with angles measuring 60 degrees, 70 degrees, and 50 degrees because then the angle bisector of the 70-degree angle wouldn't pass through the midpoint of the side opposite it",1,1,1,1
+Math,17,557,"13 cm, 14 cm, and 15 cm because the angle bisector doesn't bisect the opposite side.",1,1,0,1
+Math,17,558,"This is true for an isosceles triangle with sides 8 cm, 8 cm, and 5 cm because the angle bisector from one of the base angles does not bisect the opposite side.",0,1,1,1
+Math,17,559,"A triangle with angles 25, 75, and 80, where the angle bisector of the 80 angle does not bisect the opposite side.",1,1,1,1
+Math,17,560,"Any triangle with sides 11 cm, 13 cm, and 17 cm has an angle bisector from the angle opposite the 17 cm side that does not bisect that side.",1,1,1,1
+Math,18,601,The profit from selling a robot goes up as the price increases at first. Then the price gets too high and the profit goes back down until it reaches $0 of profit.,0,0,0,0
+Math,18,602,"Lynelle throws a basketball into the air. It reaches a maximum height of 9 meters above the ground after one second and hits the ground after 5 seconds. (1,9) is the vertex and (5,0) is an x-intercept.",0,0,0,0
+Math,18,603,"The equation models the amount of money in Byjon's bank account. It has the points (9, 0) and (10, -55) on it.",0,0,0,0
+Math,18,604,"This equation represents a parabola, so maybe it can represent a swing on a swing set and how it swings back and forth. When the swing swings forward, it's maximum heigh is represented by (x + 1), and when it swings back, its max heigh is represented by (x - 9).",0,0,0,0
+Math,18,605,This equation is a parabola that has a vertex and that faces down. I think it could represent launching a rocket into outer space becuase the rocket has to take off and if it doesn't have enough momentum it will fall back to earth.,0,0,0,0
+Math,18,606,"A company makes money selling books. x is the time in months since they started selling books and y is their profit in dollars. The business did really well at first but then had some problems. At the 9 month mark they broke even, and things got worse after that.",0,0,0,0
+Math,18,607,"The equation describes how high a rocket will fly when launched in the air. Since it's a rocket, we can use this equation to figure out where it flies. The rocket will hit zero at x = -1 and x = 9, those are important points I think.",0,0,0,0
+Math,18,608,"The equation describes how fast a car will go when the driver presses the accelerator. y is speed, x is time.",0,0,0,0
+Math,18,609,"y is the height of a basketball when I throw it up with a certain force. When x is -1, y is 0 because it has negative force. The highest point is when x is 4.",1,0,0,0
+Math,18,610,"A store sells ice cream cones. When it's really cold like -1 degrees they don't sell any, and when it's pretty warm like 9 degrees they also don't sell any. They sell the most when it's sort of cold, like 4 degrees outside.",1,0,1,1
+Math,18,611,"This could be a situation where you are looking at the distance that something travels over time, where it speeds up and then slows down.",0,0,0,0
+Math,18,612,"To graph the equation, simplify to y = -5(x - 4)^2 + 125. This creates a parabola with a maximum y value of 125.",0,0,0,0
+Math,18,613,"A ball is thrown upward 5 feet in the air. The x is the time and y is the height. When x is 1 and 9 the ball hits the ground, and the highest point is in the middle.",0,0,0,0
+Math,18,614,"The height of a rollercoaster is -5(x+1)(x-9), where x is time. The vertex is at 4 seconds, which is at 20 feet and that's the scariest part because you're gonna go downhill super fast.",0,0,0,0
+Math,18,615,"Five rocks are thrown up at the same time. The parabola shows how many are still in the air after x seconds, with all rocks landing at x=1 and x=9.",0,0,0,0
+Math,18,616,"The equation represents the height of a ball if you throw it at different points, x = 1 or x = -9.",0,0,0,0
+Math,18,617,The equation represents the distance between two cars when one car travels at speed =1 and the other travels at speed =9,0,0,0,0
+Math,18,618,"This is a parabola that opens up. The X intercepts are -1 and 9. Halfway between the intercepts would be the vertex, so it would be at x=4.  If we imagine a waterslide that goes down and then back up, the x could be the time and y could be the height of the rider. You can't really start at negative time, but you would eventually slide up about as high as where you started. So you would be at the bottom at 4 seconds and back to the highest point at 9 seconds.",0,0,0,0
+Math,18,619,"If you multiply it out you get -5x -5 -5x +9. This becomes y = -10x + 4. That's a linear equation so there isn't any vertex. But the Y intercept is 4, and it is negative. Maybe we could use this to say John starts with 4 dollars and wants to buy pizzas that cost $10. John can only buy part of a pizza before he runs out of money.",0,0,0,0
+Math,18,620,This is a quadratic equation. The X intercepts are -1 and 9. The Y intercept is 45. The quadratic term is -5^2 so we know it opens down. This could be used to model the height of something being thrown in the air. It starts fast and slows down until it comes back down.,0,1,0,0
+Math,18,621,"A student throws a ball straight up from a platform. In this situation, \( x \) is the time in seconds, and \( y \) is the height in meters above the ground. When \( x = 0 \), the height \( y \) is 45 meters, so the ball starts 45 meters above the ground. The ball goes up and reaches its highest point of 125 meters after 4 seconds. Then it comes back down and hits the ground after 9 seconds.",1,1,1,1
+Math,18,622,"Alex throws a javelin into the air. It reaches a maximum height of 125 meters after 4 seconds and lands on the ground after 9 seconds. (4,125) is the vertex, and (9,0) is an x-intercept. The height at the moment of release is 45 meters, which is the y-intercept. Here, \( x \) represents time in seconds, and \( y \) represents height in meters.",1,1,1,1
+Math,18,623,"The equation models the height of a rocket after x seconds. x represents time in seconds, and y represents height in meters. The rocket starts at (0, 45). It reaches its maximum height at (4, 125). It lands at (9, 0).",1,1,1,1
+Math,18,624,"Maybe this equation represents a diver jumping off a cliff into the sea. The height \( y \) in meters of the diver after \( x \) seconds is given by \( y = -5(x + 1)(x - 9) \). So \( x \) is time in seconds, and \( y \) is height in meters. The factors \( (x + 1) \) and \( (x - 9) \) might show when the diver is at sea level, like at \( x = -1 \) and \( x = 9 \) seconds. Since negative time doesn't make sense, the diver enters the water at \( x = 9 \) seconds, which is the positive \( x \)-intercept. The diver starts at \( y = 45 \) meters when \( x = 0 \), which is the \( y \)-intercept. He reaches the highest point at \( y = 125 \) meters when \( x = 4 \) seconds, which is the vertex.",1,1,1,1
+Math,18,625,"This equation is a parabola that opens downward. I think it could represent a basketball player making a high arcing shot. In this case, \( x \) is time in seconds, and \( y \) is the height in feet of the basketball after it's thrown. The ball leaves the player's hand at a height of 45 feet when \( x = 0 \), which is the y-intercept. It reaches its maximum height of 125 feet at \( x = 4 \) seconds, which is the vertex. The ball would hit the ground at \( x = 9 \) seconds, the positive x-intercept, but actually it goes through the hoop before that.",1,1,1,1
+Math,18,626,"A fireworks shell is launched into the sky. x is the time in seconds since it was launched, and y is its height in meters. It starts at a height of 45 meters when x is 0. The shell goes up and reaches its highest point of 125 meters at 4 seconds. Then it explodes, and the pieces fall back down, reaching the ground at 9 seconds.",1,1,1,1
+Math,18,627,"The equation shows how high a model rocket flies after we launch it. In this equation, \( x \) is time in seconds, and \( y \) is height in meters. The rocket starts at \( y = 45 \) meters when \( x = 0 \), which is the y-intercept. It reaches its highest point of 125 meters at \( x = 4 \) seconds, that's the vertex. Then it comes back down and lands on the ground at \( x = 9 \) seconds, which is one of the x-intercepts.",1,1,1,1
+Math,18,628,"The equation describes the height of a water fountain's jet over time. y is height, x is time. The fountain starts at 45 meters when x = 0. The water reaches a maximum height of 125 meters at x = 4 seconds. The water returns to the pool at x = 9 seconds.",1,1,1,1
+Math,18,629,"y is the height in meters of an amusement park ride that launches me into the air. x is the time in seconds after the launch. The equation is y = -5(x + 1)(x - 9). When x is -1, y is 0, so the ride is at ground level before the launch. At x = 0, y is 45 meters, so the ride starts at 45 meters high. The highest point is at x = 4 seconds, where y is 125 meters. I come back down to the ground at x = 9 seconds.",1,1,1,1
+Math,18,630,"A stunt performer jumps a motorcycle off a ramp. The height \( y \) in meters of the motorcycle \( x \) seconds after the jump is given by \( y = -5(x + 1)(x - 9) \). Here, \( x \) is time in seconds, and \( y \) is height in meters. When time is \(-1\) seconds, the motorcycle is on the ground, and when time is \(9\) seconds, it lands back on the ground. They start at \(45\) meters high when time is \(0\) seconds. They reach the highest point, \(125\) meters, at \(4\) seconds.",1,1,1,1
+Math,18,631,"This could be a situation where a ball is kicked into the air from a platform, and we're looking at its height over time. The equation \( y = -5(x + 1)(x - 9) \) models the height \( y \) in meters of the ball \( x \) seconds after being kicked. Here, \( x \) represents time in seconds, and \( y \) represents height in meters. The ball starts at a height of 45 meters when \( x = 0 \), which is the y-intercept. It reaches its highest point of 125 meters at \( x = 4 \) seconds, which is the vertex. The ball lands back on the ground at \( x = 9 \) seconds, which is the positive x-intercept.",1,1,1,1
+Math,18,632,"To analyze the balloon's flight, we use the equation \( y = -5(x + 1)(x - 9) \), where \( x \) represents time in minutes and \( y \) represents height in meters. The y-intercept is at \( (0, 45) \), indicating the balloon starts at 45 meters when \( x = 0 \). The vertex is at \( (4, 125) \), showing the maximum height of 125 meters at \( x = 4 \) minutes. The balloon lands back on the ground at the positive x-intercept \( x = 9 \), where \( y = 0 \).",1,1,1,1
+Math,18,633,"A festival has attendance modeled by y = -5(x + 1)(x - 9). The x is the number of hours after it opens, and y is the number of people in hundreds. When x is 0, there are 45 hundred people attending. The highest attendance is at x = 4 hours. When x is 9, the attendance drops to zero.",1,1,1,1
+Math,18,634,"A company's profit \( y \) (in thousands of dollars) is given by \( y = -5(x + 1)(x - 9) \), where \( x \) is time in months. At the beginning (\( x = 0 \)), they make \$45,000—that's the y-intercept. The profit climbs and hits a peak of \$125,000 at 4 months—that's the best part! But then it starts dropping and hits zero at 9 months, which is the positive x-intercept.",1,1,1,1
+Math,18,635,"An insect population is modeled over time. The equation \( y = -5(x + 1)(x - 9) \) shows the number of insects \( y \) (in thousands) after \( x \) weeks. At \( x = 0 \) weeks, there are 45,000 insects, which is the y-intercept. The population reaches a maximum of 125,000 insects at \( x = 4 \) weeks, the vertex. Then, the population decreases to zero at \( x = 9 \) weeks, the positive x-intercept.",1,1,1,1
+Math,18,636,"The equation y = -5(x + 1)(x - 9) shows the height y in meters of a stone when you throw it upward from a bridge. Here, x is the time in seconds after you throw it, and y is how high the stone is above the water. For example, when x = 0, the stone is at y = 45 meters, which is the height of the bridge (the y-intercept). It reaches its highest point at y = 125 meters when x = 4 seconds (the vertex). The stone hits the water at x = 9 seconds, which is the positive x-intercept.",1,1,1,1
+Math,18,637,"The equation represents the height \( y \) of a roller coaster car after \( x \) seconds, where \( y = -5(x + 1)(x - 9) \), \( x \) is time in seconds, and \( y \) is height in meters; the car starts at \( y = 45 \) meters when \( x = 0 \) seconds, reaches a maximum height of \( y = 125 \) meters at \( x = 4 \) seconds, and reaches the bottom at \( y = 0 \) meters when \( x = 9 \) seconds.",1,1,1,1
+Math,18,638,"This is a parabola that opens downward. The x-intercepts are at x = -1 and x = 9. Halfway between the intercepts is x = 4, which is the vertex. So at x = 4 minutes, the satellite reaches its maximum altitude of 125 kilometers. It starts at x = 0 minutes, where y = 45 kilometers, the y-intercept. Then it comes back down and re-enters the atmosphere at x = 9 minutes, the positive x-intercept.",1,1,1,1
+Math,18,639,"If I have the equation \( y = -5(x + 1)(x - 9) \), where \( x \) is time in days and \( y \) is the height of a plant in centimeters. If I multiply it out, I get \( y = -5x^2 - 5x + 45x + 45 \). Simplifying that, it becomes \( y = -5x^2 + 40x + 45 \). 
+
+When \( x = 0 \), plugging it in gives \( y = 45 \), so the plant starts at 45 cm tall—that's the y-intercept. The x-intercepts are at \( x = -1 \) and \( x = 9 \). Since negative time doesn't make sense here, the plant reaches a height of zero at \( x = 9 \) days, meaning it dies then.
+
+To find the maximum height, I look at the vertex of the parabola. The vertex is halfway between the x-intercepts, so at \( x = 4 \) days. Plugging \( x = 4 \) into the equation gives \( y = -5(4 + 1)(4 - 9) = -5(5)(-5) = 125 \) cm. So, the plant grows to a maximum height of 125 cm at day 4. After that, it starts to wilt and shrinks back down to zero by day 9.",1,1,1,1
+Math,18,640,"This is a quadratic equation. In this context, \( x \) is time in seconds, and \( y \) is height in meters. The \( x \)-intercepts are \(-1\) and \(9\). The \( y \)-intercept is \(45\). The quadratic term is \(-5x^2\), so it opens downward. This could model the height of a ball dropped from a hot air balloon. The ball starts at \(45\) meters when \( x = 0 \). It rises to a maximum height of \(125\) meters at \( x = 4 \) seconds, due to an upward initial velocity. Then it falls back down and hits the ground at \( x = 9 \) seconds.",1,1,1,1
+Math,19,681,Clem gives 0 candies to each person.,0,0,0,0
+Math,19,682,"Clem has enough candy for 65 people, because the solution to 0 = 195-3x is 65 = x.",0,0,0,0
+Math,19,683,C(0) represents the value of the function if Clem decides that he wants to give each person three pieces of candy.,0,0,0,0
+Math,19,684,C(0) = -3x + 195,0,0,0,0
+Math,19,685,195 people,0,0,0,0
+Math,19,686,195 - 3(0) = 195,0,0,0,0
+Math,19,687,There is no candy left.,0,0,0,0
+Math,19,688,If you solve 0 = 195 - 3x you find out how many people visit the booth.,0,0,0,0
+Math,19,689,c(0) means all of the candy is still in the bag because 0 people visited his booth.,1,0,1,1
+Math,19,690,it tells us how many candies are left at the end,0,0,0,0
+Math,19,691,if we plug 0 into the equation we get 195,0,0,0,0
+Math,19,692,Clem gives out 195 candies for every 3 people who visit his booth.,0,0,0,0
+Math,19,693,it tells us what value to use for x to solve the equation,0,0,0,0
+Math,19,694,It tells you that the equation is a function,0,0,0,0
+Math,19,695,the number of candies in the bag during the carnival,0,0,0,0
+Math,19,696,It means that nobody has visited the booth yet,0,1,0,0
+Math,19,697,It means he hands out 0 candies.,0,0,0,0
+Math,19,698,It means 0 bag of candy.,0,0,0,0
+Math,19,699,It means the cost of all candies is 0.,0,0,0,0
+Math,19,700,Halloween is canceled.,0,0,0,0
+Math,19,701,"Before any people visit Clem's booth, he has 195 candies remaining.",1,1,1,1
+Math,19,702,"Clem has all 195 candies before anyone visits his booth, because c(0) = 195 − 3(0) = 195.",1,1,1,1
+Math,19,703,"C(0) represents the value of the function when no one has visited Clem's booth yet, indicating that he starts with 195 candies before handing any out.",1,1,1,1
+Math,19,704,C(0) = 195,0,0,0,0
+Math,19,705,195 candies,0,0,0,0
+Math,19,706,195 − 3(0) = 195,0,0,0,0
+Math,19,707,"Since no visitors have come (x = 0), Clem has 195 candies (c(x) = 195).",1,1,1,1
+Math,19,708,"If you calculate c(0) = 195 - 3(0), you see that Clem begins with 195 candies before giving any away.",1,1,1,1
+Math,19,709,c(0) means Clem still has all 195 candies because 0 people have visited his booth.,1,1,1,1
+Math,19,710,"when no one has visited (x=0), clem has 195 candies",1,1,1,1
+Math,19,711,"if we plug 0 into the equation we get 195, so Clem starts with 195 candies",1,1,1,1
+Math,19,712,"Before anyone visits his booth, Clem has 195 candies remaining in the bag.",1,1,1,1
+Math,19,713,"it tells us that when x is zero, clem has 195 pieces of candy",1,1,0,1
+Math,19,714,"It shows that when zero people have visited the booth, Clem has 195 pieces of candy.",1,1,1,1
+Math,19,715,the 195 candies in the bag before any visitors arrive,1,1,1,1
+Math,19,716,"It means that when no one has visited the booth yet, Clem has 195 candies remaining.",1,1,1,1
+Math,19,717,It means he has 195 candies before any visitors.,1,1,1,1
+Math,19,718,"It means 0 visitors, so Clem has 195 candies.",1,1,1,1
+Math,19,719,"It means that when no one has visited the booth, Clem has 195 candies.",1,1,1,1
+Math,19,720,Halloween is canceled.,0,0,0,0
+Math,20,761,Taylor makes bracelets for 50 months m. She starts with 230 bracelets.,0,0,0,0
+Math,20,762,Taylor already had 230 bracelets and made 50 more.,0,0,0,0
+Math,20,763,Taylor had 50 bracelets in stock and makes 230 more per month. m is the number of months.,0,0,0,0
+Math,20,764,50m represents the number of bracelets that Taylor makes in a month. 230 is the amount of bracelets leftover at the end of the month.,0,0,0,0
+Math,20,765,M = the number bracelets that she makes in a month. 230 represents the number of bracelets she has at the beginning of the month.,0,0,0,0
+Math,20,766,50m + 230 is the total number of bracelets,0,0,0,0
+Math,20,767,230 is the number of bracelets she has,0,0,0,0
+Math,20,768,Taylor sells 230 bracelets every 50 months.,0,0,0,0
+Math,20,769,"m is months, so she works for 50 months, and 230 is number of bracelets, so after 50 months she has 230 bracelets to sell",0,0,0,0
+Math,20,770,"she starts out with 230 bracelets, and reaches her goal after 50 months",0,0,0,0
+Math,20,771,They show how many bracelets she makes each month,0,0,0,0
+Math,20,772,The value is 50m + 230 so after one month she has 280 bracelets,0,1,0,0
+Math,20,773,50 is how many bracelets Taylor has now and 230 is how many she needs to have after m months,0,0,0,0
+Math,20,774,"If she wants to make 230 bracelets and she can make 50 per month, it will take her 4.6 months to make all of the bracelets",0,0,0,0
+Math,20,775,"500m means she makes 500 bracelets per month, and 230 means she started with 230 bracelets.",0,0,0,0
+Math,20,776,It means Taylor has 50 months to make bracelets.,0,0,0,0
+Math,20,777,It means each bracelet is $50.,0,0,0,0
+Math,20,778,"It means she can sell 50m+230 bracelets every month, after m months.",0,0,0,0
+Math,20,779,She makes 50 bracelets a month on average.,0,0,0,0
+Math,20,780,She sells 50 bracelets to make $230 so 230/50 is the price,0,0,0,0
+Math,20,781,Taylor makes 50 bracelets each month. She already has 230 bracelets before she starts making more.,1,1,1,1
+Math,20,782,Taylor already has 230 bracelets and makes 50 more each month.,1,1,1,1
+Math,20,783,Taylor has 230 bracelets in stock and makes 50 more each month. m is the number of months.,1,1,1,1
+Math,20,784,50m represents the number of bracelets that Taylor makes each month. 230 is her starting inventory of bracelets.,1,1,0,1
+Math,20,785,50 represents the number of bracelets Taylor makes every month. 230 represents the bracelets she already has before she begins adding more.,1,1,1,1
+Math,20,786,"50 is the number of bracelets added each month, and 230 is the starting number of bracelets.",1,1,1,1
+Math,20,787,"50 is the number of bracelets she makes each month, and 230 is the number of bracelets she already has.",1,1,1,1
+Math,20,788,Taylor has 230 bracelets in stock and makes 50 more each month.,1,1,1,1
+Math,20,789,"50 is bracelets per month, so she makes 50 bracelets every month, and 230 is number of bracelets she has before, so before she starts adding more, she has 230 bracelets",1,1,1,1
+Math,20,790,"she starts with 230 bracelets, and adds 50 more each month",1,1,1,1
+Math,20,791,They show that she makes 50 bracelets each month and starts with 230 bracelets.,1,1,1,1
+Math,20,792,The value is 50m + 230 so 50 is the rate of bracelets added each month and 230 is the starting amount,1,1,1,1
+Math,20,793,50 is the number of bracelets Taylor makes each month and 230 is the number of bracelets she already has in her inventory.,0,1,1,1
+Math,20,794,"If she starts with 230 bracelets and makes 50 more each month, then the 50 represents the number of bracelets she makes monthly, and the 230 is the amount she starts with before making more.",1,1,1,1
+Math,20,795,"50m means she adds 50 bracelets to her shop each month, and 230 means she started with 230 bracelets.",1,1,1,1
+Math,20,796,It means Taylor starts with 230 bracelets and makes 50 more each month.,1,1,1,1
+Math,20,797,"It means Taylor adds 50 bracelets to her shop each month, and she starts with 230 bracelets.",1,1,1,1
+Math,20,798,"It means she has 230 bracelets at the beginning, and she makes 50 bracelets each month.",1,1,1,1
+Math,20,799,She makes 50 bracelets a month and starts with 230 bracelets.,1,1,1,1
+Math,20,800,"She starts with 230 bracelets and adds 50 more each month, so 50 is the number of bracelets she adds monthly, and 230 is her starting stock.",1,1,1,1

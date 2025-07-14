@@ -1,0 +1,312 @@
+########################
+### human_labels.csv ###
+########################
+description: Human labels for all responses.
+dimensions: 800 x 8
+
+Columns
+[1] "domain"     
+type: character	
+description: Domain or subject of the item.	
+values:
+- “ELA” = High School English Language Arts 
+- “Math” = High School Algebra I
+
+[2] "item"       
+type: numeric
+description: Item number. 1-10 are ELA; 11-20 are Math
+values: 1:20
+
+[3] "response_id"
+type: numeric
+description: Unique response identifier
+values: 1:800
+
+[4] "response"   
+type: character
+description: Text of student response
+values: variable
+
+[5] "human_1"    
+type: numeric
+description: Response score from Human 1
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[6] "human_2"    
+type: numeric
+description: Response score from Human 2
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[7] "human_3"    
+type: numeric
+description: Response score from Human 3
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[8] "human_avg"  
+type: numeric
+description: Majority vote from human_1, human_2, and human_3; Ground Truth
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+
+
+#################
+### items.csv ###
+#################
+description: Information on 20 items.
+dimensions: 20 x 11
+
+[1] "domain"     
+type: character	
+description: Domain or subject of the item.	
+values:
+- “ELA” = High School English Language Arts 
+- “Math” = High School Algebra I
+
+[2] "item"       
+type: numeric
+description: Item number. 1-10 are ELA; 11-20 are Math
+values: 1:20
+
+[3] "question"
+type: character
+description: Text of the question
+values: variable
+
+[4] "criteria_for_scoring"     
+type: character
+description: Text of the criteria for scoring
+values: variable
+
+[5] "correct_answer_examples"  
+type: character
+description: Text of the correct answer examples
+values: variable
+
+[6] "incorrect_answer_examples"
+type: character
+description: Text of the incorrect answer examples
+values: variable
+
+[7] "short_description"        
+type: character
+description: Short description of the item
+values: variable
+
+[8] "response_length"          
+type: character
+description: Classification for the expected response length 
+values: 
+- Shorter (requiring < 1 sentence)
+- Longer (1+ sentences)
+
+[9] "cognitive_demand"         
+type: character
+description: Classification for the cognitive demand required of respondent, using Bloom's Taxonomy
+values: 
+- Low (Remember, Understand, and Apply)
+- High (Analyze, Evaluate, Create)
+
+[10] "answer_scope"             
+type: character
+description: Classification for the set of possible correct answers
+values:
+- Narrow (very few possible correct answers), 
+- Moderate (several)
+- Broad (many)
+
+[11] "scoring_subjectivity"  
+type: character
+description: Classification for the level of rater subjectivity required to score the item
+. Low (straightforward matching against clear criteria) 
+- High (some judgment required)
+
+
+######################
+### llm_labels.csv ###
+######################
+description: LLM labels for the original 11 models, for each of 3 rubrics
+dimensions: 26400 x 11
+
+Columns
+[1] "response_id"
+type: numeric
+description: Unique response identifier
+values: 1:800
+
+[2] "item"       
+type: numeric
+description: Item number. 1-10 are ELA; 11-20 are Math
+values: 1:20
+
+[3] "domain"     
+type: character	
+description: Domain or subject of the item.	
+values:
+- “ELA” = High School English Language Arts 
+- “Math” = High School Algebra I
+
+[4] "scorer_type"    
+type: character
+description: UNUSED - different labeling of rubric_type
+values:
+- basic
+- criteria
+- criteria_examples
+
+[5] "llm_2"    
+type: numeric
+description: Response score from LLM 1
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[6] "llm_2"    
+type: numeric
+description: Response score from LLM 2
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[7] "llm_3"    
+type: numeric
+description: Response score from LLM 3
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[8] "llm_avg"  
+type: numeric
+description: Majority vote from llm_1, llm_2, and llm_3; Predicted Score
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[9] "model_size"  
+type: character
+description: Classification of model size
+values:
+- Small (<100B parameters, or lighter/faster versions of larger variants). 
+-- Claude 3-5 Haiku, Gemini 1.5 Flash, Gemini 1.5 Flash 8b, GPT 4o Mini, Llama 3.1 70b, Llama 3.1 8b
+- Large
+-- Claude 3-5 Sonnet, Gemini 1.5 Pro, GPT 4o, Llama 3.1 405b
+- Frontier
+-- OpenAI o1
+
+[10] "model_name"
+type: character
+description: LLM name
+values:
+- Claude 3.5 Haiku   
+- Claude 3.5 Sonnet  
+- GPT-4o             
+- GPT-4o mini        
+- Gemini 1.5 Flash   
+- Gemini 1.5 Flash 8b
+- Gemini 1.5 Pro     
+- Llama 3.1 405b     
+- Llama 3.1 70b      
+- Llama 3.1 8b       
+- OpenAI o1  
+
+
+[11] "rubric_type"
+type: character
+description: Type of rubric used for labeling
+values:
+- Empty
+- Criteria Only
+- Full
+
+
+
+
+##########################
+### llm_labels_new.csv ###
+##########################
+description: LLM labels for the new 4 models, for each of 3 rubrics
+dimensions: 9600 x 11
+
+Columns
+[1] "response_id"
+type: numeric
+description: Unique response identifier
+values: 1:800
+
+[2] "item"       
+type: numeric
+description: Item number. 1-10 are ELA; 11-20 are Math
+values: 1:20
+
+[3] "domain"     
+type: character	
+description: Domain or subject of the item.	
+values:
+- “ELA” = High School English Language Arts 
+- “Math” = High School Algebra I
+
+[4] "scorer_type"    
+type: character
+description: UNUSED - different labeling of rubric_type
+values:
+- basic
+- criteria
+- criteria_examples
+
+[5] "llm_2"    
+type: numeric
+description: Response score from LLM 1
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[6] "llm_2"    
+type: numeric
+description: Response score from LLM 2
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[7] "llm_3"    
+type: numeric
+description: Response score from LLM 3
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[8] "llm_avg"  
+type: numeric
+description: Majority vote from llm_1, llm_2, and llm_3; Predicted Score
+values:
+- 0 = Incorrect
+- 1 = Correct
+
+[9] "model_size"  
+type: character
+description: Classification of model size
+values:
+- New
+
+[10] "model_name"
+type: character
+description: LLM name
+values:
+- Claude 4.0 Sonnet
+- Gemini 2.5 Pro   
+- OpenAI o3        
+- OpenAI o4 Mini   
+
+[11] "rubric_type"
+type: character
+description: Type of rubric used for labeling
+values:
+- Empty
+- Criteria Only
+- Full
