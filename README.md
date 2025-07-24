@@ -90,7 +90,7 @@ llm-saq-scoring/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[username]/llm-saq-scoring.git
+   git clone https://github.com/Khan/llm-saq-scoring.git
    cd llm-saq-scoring
    ```
 
