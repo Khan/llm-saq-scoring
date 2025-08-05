@@ -90,16 +90,11 @@ llm-saq-scoring/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[username]/llm-saq-scoring.git
+   git clone https://github.com/Khan/llm-saq-scoring.git
    cd llm-saq-scoring
    ```
 
-2. **Install dependencies** (if using renv)
-   ```r
-   renv::restore()
-   ```
-
-3. **Run the analyses**
+2. **Run the analyses**
    ```r
    # Original model analysis
    quarto::quarto_render("analysis/01-analysis.qmd")
